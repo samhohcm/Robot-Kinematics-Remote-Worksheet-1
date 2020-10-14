@@ -6,12 +6,12 @@ title: Simulating Robots!
 
 A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) using a online version of the free open source [Webots](https://www.cyberbotics.com/) robot simulator.
 
-<div id="sessionLinkPanel" class="container p-3 my-3 bg-primary">
-<h2>Actvity Sessions</h2> 
-  <p>This activity session is part of a series, you can see links to all the sessions in this series below!</p>
+<div id="sessionLinkPanel" class="container p-3 my-3 bg-secondary">
+<h2>Actvity series</h2> 
+  <p>This activity session is part of a series, you can see links to all the activities in this series below!</p>
 <ul class="list-group">
-  <a href="https://www.w3schools.com/python/" target="_blank" class="list-group-item list-group-item-action">Session 1: TBC</a>
-  <a href="https://www.pythoncheatsheet.org/" target="_blank" class="list-group-item list-group-item-action">Session 2: TBC</a>
+  <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity/" target="_blank" class="list-group-item list-group-item-action">Activity session 1: Intro to robot simulation</a>
+  <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity2/" target="_blank" class="list-group-item list-group-item-action">Activity session 2: Pick and place with a robot arm</a>
 </ul>
 </div>
 
@@ -54,8 +54,8 @@ This session is designed to be fun! The idea is that we can follow it together o
 # Programming the robot!
 ---
 
-<div id="Activity3" class="container p-3 my-3 bg-primary text-primary">
-<h2>Activity #3</h2>
+<div id="Activity1" class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #1</h2>
 </div>
 
 * We'll be using the [robotbenchmark](https://robotbenchmark.net/) website.
