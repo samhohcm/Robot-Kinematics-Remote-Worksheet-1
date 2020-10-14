@@ -1,19 +1,10 @@
 ---
 layout: page
-title: Simulating Robots! 
+title: Simulating Robots | Pick and place with a robot arm
 ---
 [![logoPicture](images/girlsIntoCodingLogo.jpg)](https://www.girlsintocoding.com/)
 
 A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) using a online version of the free open source [Webots](https://www.cyberbotics.com/) robot simulator.
-
-<div id="sessionLinkPanel" class="container p-3 my-3 bg-secondary">
-<h2>Actvity series</h2> 
-  <p>This activity session is part of a series, you can see links to all the activities in this series below!</p>
-<ul class="list-group">
-  <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity/" target="_blank" class="list-group-item list-group-item-action">Activity session 1: Intro to robot simulation</a>
-  <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity2/" target="_blank" class="list-group-item list-group-item-action">Activity session 2: Pick and place with a robot arm</a>
-</ul>
-</div>
 
 This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace. We're going to be doing some basic python programming in this activity. If you're not too familiar with Python, don't worry, you'll be able to follow along :) ! 
 
@@ -25,14 +16,7 @@ This session is designed to be fun! The idea is that we can follow it together o
 <h2>Contents</h2>
 <ul class="list-group">
   <li class="list-group-item"><a href="#resourcesPanel">Resources</a></li>
-  <li class="list-group-item"><a href="#Activity1">What is a robot simulator?</a></li>
-  <li class="list-group-item"><a href="#ActivitySim">Why simulate robots?</a></li>
-  <li class="list-group-item"><a href="#Activity2">First steps using the robot simulator</a></li>
-  <li class="list-group-item"><a href="#Activity3">Programming the robot!</a></li>
-  <li class="list-group-item"><a href="#Activity4">Making the robot turn on the spot (creating a new python variable)</a></li>
-  <li class="list-group-item"><a href="#Activity5">Working with python functions</a></li>
-  <li class="list-group-item"><a href="#Activity6">Using python loops to make shapes with the robot!</a></li>
-  <li class="list-group-item"><a href="#Activity7">Putting our code to make shapes into python functions!</a></li>
+  <li class="list-group-item"><a href="#Activity1">Pick and place example code</a></li>
 </ul>
 </div>
 
@@ -44,6 +28,15 @@ This session is designed to be fun! The idea is that we can follow it together o
   <a href="https://www.pythoncheatsheet.org/" target="_blank" class="list-group-item list-group-item-action">Python cheatsheet</a>
   <a href="https://www.cyberbotics.com/doc/reference/index" target="_blank" class="list-group-item list-group-item-action">Webots documentation</a>
   <a href="https://robohub.org/30-women-in-robotics-you-need-to-know-about-2019/" target="_blank" class="list-group-item list-group-item-action">30 women in robotics you need to know about – 2019</a>
+</ul>
+</div>
+
+<div id="sessionLinkPanel" class="container p-3 my-3 bg-secondary">
+<h2>Actvity series</h2> 
+  <p>This activity session is part of a series, you can see links to all the activities in this series below!</p>
+<ul class="list-group">
+  <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity/" target="_blank" class="list-group-item list-group-item-action">Activity session 1: Intro to robot simulation</a>
+  <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity2/" target="_blank" class="list-group-item list-group-item-action">Activity session 2: Pick and place with a robot arm</a>
 </ul>
 </div>
 
