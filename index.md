@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Simulating Robots | Pick and place with a robot arm
+title: Pick and place with a robot arm!
 ---
 [![logoPicture](images/girlsIntoCodingLogo.jpg)](https://www.girlsintocoding.com/)
 
@@ -31,9 +31,9 @@ This session is designed to be fun! The idea is that we can follow it together o
 </ul>
 </div>
 
-<div id="sessionLinkPanel" class="container p-3 my-3 bg-secondary">
+<div id="sessionLinkPanel" class="container p-3 my-3 bg-warning">
 <h2>Actvity series</h2> 
-  <p>This activity session is part of a series, you can see links to all the activities in this series below!</p>
+  <p>This activity session is part of a series on simulating robots, you can see links to all the activities in this series below!</p>
 <ul class="list-group">
   <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity/" target="_blank" class="list-group-item list-group-item-action">Activity session 1: Intro to robot simulation</a>
   <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity2/" target="_blank" class="list-group-item list-group-item-action">Activity session 2: Pick and place with a robot arm</a>
@@ -44,7 +44,7 @@ This session is designed to be fun! The idea is that we can follow it together o
 <br>
 <br>
 
-# Programming the robot!
+# Let's get familiar with our mobile robot arm!
 ---
 
 <div id="Activity1" class="container p-3 my-3 bg-primary text-primary">
@@ -56,6 +56,9 @@ This session is designed to be fun! The idea is that we can follow it together o
 * Click on **Start programming this benchmark**
 * Read the instructions in the top left hand corner of the screen. You can resize the instruction window by dragging its bottom corner.
 * When you're ready to program the robot, right click on it, and select **Edit controller**
+
+[![logoPicture](images/image1.png)](https://www.girlsintocoding.com/)
+
 * A window will pop up with python code in it! This is how we program our virtual robot.
 * Delete the code in the robot controller window
 * Copy and paste the code from below into the robot controller window - this contains some useful examples and functions
