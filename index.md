@@ -35,8 +35,8 @@ This session is designed to be fun! The idea is that we can follow it together o
 <h2>Actvity series</h2> 
   <p>This activity session is part of a series on simulating robots, you can see links to all the activities in this series below!</p>
 <ul class="list-group">
-  <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity/" target="_blank" class="list-group-item list-group-item-action">Activity session 1: Intro to robot simulation</a>
-  <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity2/" target="_blank" class="list-group-item list-group-item-action">Activity session 2: Pick and place with a robot arm</a>
+  <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity/" target="_blank" class="list-group-item list-group-item-action"><b>Activity session 1:</b> Intro to robot simulation</a>
+  <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity2/" target="_blank" class="list-group-item list-group-item-action"><b>Activity session 2:</b> Pick and place with a robot arm</a>
 </ul>
 </div>
 
