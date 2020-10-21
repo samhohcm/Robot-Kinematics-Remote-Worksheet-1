@@ -2,16 +2,26 @@
 layout: page
 title: Pick and place with a robot arm!
 ---
+
+<!--Comment: Above here is the header, we need this to generate the web page-->
+
+<!--Comment: This section is markdown-->
+
 [![logoPicture](images/girlsIntoCodingLogo.jpg)](https://www.girlsintocoding.com/)
 
 A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) using a online version of the free open source [Webots](https://www.cyberbotics.com/) robot simulator.
 
 This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace. We're going to be doing some basic python programming in this activity. If you're not too familiar with Python, don't worry, you'll be able to follow along :) ! 
 
-<!--Comment: Paragrpah spacing-->
+<!--Comment: End of markdown section-->
+
+<!--Comment: This code here is html-->
+
+<!--Comment: This is html paragraph spacing <br>-->
 <br>
 <br>
 
+<!--Comment: This is html bootstrap-->
 <div class="container p-3 my-3 bg-primary">
 <h2>Contents</h2>
 <ul class="list-group">
@@ -40,16 +50,31 @@ This session is designed to be fun! The idea is that we can follow it together o
 </ul>
 </div>
 
+<!--Comment: This is the end of html bootstrap-->
+
+
 <!--Comment: Paragrpah spacing-->
 <br>
 <br>
 
+
+<!--Comment: This section is markdown again-->
+
 # Let's get familiar with our mobile robot arm!
 ---
+
+<!--Comment: End of markdown-->
+
+<!--Comment: Back to html bootstrap -->
 
 <div id="Activity1" class="container p-3 my-3 bg-primary text-primary">
 <h2>Activity #1</h2>
 </div>
+
+<!--Comment: End of html bootstrap -->
+
+
+<!--Comment: Back to markdown -->
 
 * We'll be using the [robotbenchmark](https://robotbenchmark.net/) website.
 * Click on the **Start** button next to the **Pick and place** activity
@@ -62,6 +87,9 @@ This session is designed to be fun! The idea is that we can follow it together o
 * A window will pop up with python code in it! This is how we program our virtual robot.
 * Delete the code in the robot controller window
 * Copy and paste the code from below into the robot controller window - this contains some useful examples and functions
+
+<!--Comment: End of markdown -->
+
   
 ```python
 """Sample base code controller for the pick and place girls into coding activity"""
