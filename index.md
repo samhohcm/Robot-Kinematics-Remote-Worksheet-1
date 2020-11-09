@@ -57,6 +57,39 @@ This session is designed to be fun! The idea is that we can follow it together o
 <br>
 <br>
 
+# What is Kinematics?
+
+You might be wondering, what in the world is 'kinematics'? 
+
+Well, it's just a fancy name we give to the **study of movement**. 
+
+Cars move, cats move, humans move, and of course, robots move. We use kinematics to not only figure out where we will end up once we're done moving, but also to figure out how we need to move to get somewhere. Scientists have been using kinematics for a long time to figure out how things roll, bounce, fly, walk, anything you can think of that involves moving!
+
+## But what does it have to do with robots?
+
+When you want to make a robot move, you want to make sure it will get to where you want it to go. It's a little bit like Google Maps, but just for your robot.
+
+Let me give you an example:
+
+I'm going out for a walk. I walk down the road, turn right, and go to the end of the road.
+
+**But where am I going??!?**
+
+I'm controlling where I turn and how far I walk, but I don't actually know where I will end up. **Forward Kinematics** will help me figure out where I will end up if I take these turns and where I will be from where I started.
+
+As you can see, I end up at the park.
+
+<br>
+
+What if I want to get to the supermarket, but I don't know how? (You can see how this sounds a lot like Google Maps.)
+
+I know where the supermarket is from where I am now, but I don't know which turns to take to get there, or how far to walk. **Inverse Kinematics** helps me figure out what turns I need to take to get where I want to go.
+
+<br>
+
+I'm going to introduce some new terms!
+
+
 
 <!--Comment: This section is markdown again-->
 
