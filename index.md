@@ -58,6 +58,7 @@ This session is designed to be fun! The idea is that we can follow it together o
 <br>
 
 # What is Kinematics?
+<br>
 
 You might be wondering, what in the world is 'kinematics'? 
 
@@ -65,7 +66,9 @@ Well, it's just a fancy name we give to the **study of movement**.
 
 Cars move, cats move, humans move, and of course, robots move. We use kinematics to not only figure out where we will end up once we're done moving, but also to figure out how we need to move to get somewhere. Scientists have been using kinematics for a long time to figure out how things roll, bounce, fly, walk, anything you can think of that involves moving!
 
+<br>
 ## But what does it have to do with robots?
+<br>
 
 When you want to make a robot move, you want to make sure it will get to where you want it to go. It's a little bit like Google Maps, but just for your robot.
 
@@ -79,6 +82,9 @@ I'm controlling where I turn and how far I walk, but I don't actually know where
 
 As you can see, I end up at the park.
 
+
+<!--Need to add figure-->
+
 <br>
 
 What if I want to get to the supermarket, but I don't know how? (You can see how this sounds a lot like Google Maps.)
@@ -87,8 +93,18 @@ I know where the supermarket is from where I am now, but I don't know which turn
 
 <br>
 
+<!--Need to add figure-->
+
+
+## Joints and Grids
+
 I'm going to introduce some new terms!
 
+When we work with robots, we like to talk about the **Joint Space** and the **Cartesian Space**. They're just two ways of describing where our robot is, or its **state**. I'll show you in a bit what these terms mean, but first I'll show you where Forward and Inverse Kinematics fits into all this. I'll come back to this diagram later and you'll understand it better.
+
+<!--Insert diagram-->
+
+Okay, let's get to the fun bit!
 
 
 <!--Comment: This section is markdown again-->
@@ -109,7 +125,7 @@ I'm going to introduce some new terms!
 
 <!--Comment: Back to markdown -->
 
-* We'll be using the [robotbenchmark](https://robotbenchmark.net/) website.
+* We'll be using the [robotbenchmark](https://robotbenchmark.net/) website. Today we're going to work with a Kuka Youbot arm!
 * Click on the **Start** button next to the **Pick and place** activity
 * Click on **Start programming this benchmark**
 * Read the instructions in the top left hand corner of the screen. You can resize the instruction window by dragging its bottom corner.
