@@ -164,9 +164,7 @@ Okay, let's get to the fun bit!
 <br>
 
 
-<div id="Python1" class="container p-3 my-3 bg-secondary text-secondary">
-<h2>Python Code</h2>
-</div>
+### Python Code
 
 ```python
 """Sample base code controller for the pick and place girls into coding activity"""
@@ -336,8 +334,12 @@ Have a play around with it, then we can crack on! To start operating this robot 
 
 * Delete the code in the controller window
 * Copy and paste the following code into the robot controller
+* Try and figure out what values of **Joint_1_postn**, **Joint_2_postn**, and **Joint_3_postn** you can put in to get the robot to touch the box! 
+* If you put in values outside of the joint ranges (I've put them next to the variables), you will get an error like below in the console. Reset the simulation and try again with values within the ranges!
 
+<br>
 
+### Python Code
 ```python
 """Sample base code controller for the pick and place girls into coding activity"""
 
@@ -500,6 +502,7 @@ kinem_moveJoint(3, Joint_3_postn)
 
 
 ```
+<br>
 
 What do you think? 
 * Is it difficult to figure out how far to move the robot?
@@ -519,6 +522,38 @@ What do you think?
 
 <br>
 
+After playing about with the **Joint Space**, maybe you're thinking "oh, that's not so bad", or maybe you had to take lots of tries to get it to touch the box. Now just imagine if you had a robot with *lots more joints*! Like *twenty*. What about robots like these?
+
+<!--Insert images of delta robots and stuff-->
+
+That's a lot of joints you'd have to control, just because you want to touch something with the end of the robot!
+
+Now I'm going to introduce you to **Cartesian Space**. You might have heard of things like **coordinates**. Coordinates are a way of talking about the position of things, and Cartesian is a system of coordinates. If you know maps, you'll have heard of longitude and latitude, it's a bit like that.
+
+The **Cartesian coordinate system** in 2-dimensions (a flat surface!) uses 2 axes: x and y to describe where a point is on that plane. For example, in the image below the cat is at x = 2 and y = 3. Or we can write it as (2, 3) with brackets. So if I told you to put the cat at (2, 5), where would I put it?
+
+<br>
+
+<!--Insert image-->
+
+<br>
+
+Okay, so now you have the idea. Here is an image of the robot and a grid over it, with x and y axis measurements. Any point within the outline drawn on the image (also called the workspace) is a place the end of the robot can reach. Let's give it a go!
+
+<br>
+
+<!--Image here-->
+
+<br>
+
+* Delete the code in the controller window
+* Copy and paste the following code into the robot controller
+* Try and figure out what values you can put in **x**, **y**, and **phi** to make the robot touch the box!
+* If you put in values that the robot cannot reach, it will put out an error like below in the console window. Reset the simulation and try a different value!
+
+<br>
+
+### Python Code
   
 ```python
 """Sample base code controller for the pick and place girls into coding activity"""
@@ -769,13 +804,30 @@ def Cartesian_to_Joint(x, y, phi):
 # Enter your code below here for the girls into coding exercise to run the robot ! ! 
 #---------------------
 
+# Change these values !!!!!!!!!!!
 
+x = 0.1    # x-coordinate
+y = -0.2   # y-coordinate
+phi = -1.8 # angle of the end of the arm
+
+# If you put in values that the robot can't get to, you'll see an error in the console!
+
+# This code will make the robot move
 turntoTrolley()
-#kinem_moveJoint(1, -1.0) # -1.13 to 1.57
-#kinem_moveJoint(2, -0.6) # -2.64 to 2.55
-#kinem_moveJoint(3, -0.75) # -1.78 to 1.78
-
-#Cartesian_to_Joint(-0.07, -0.42, -2.35)
-Cartesian_to_Joint(0.1, -0.2, -1.8)
+Cartesian_to_Joint(x, y, phi)
 
 ```
+
+<br>
+
+
+What do you think? Is it still really hard? What if I gave you this image:
+
+<!--Insert image-->
+
+Does that make it a lot easier?
+
+This is why we use kinematics. It can be hard to imagine in our heads what the end of the robot might do if we changed the position of a joint. But if we changed it to Cartesian space, in 3D, it's a lot easier to imagine and control the robot.
+
+
+
