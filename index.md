@@ -289,6 +289,7 @@ turnRight(4, 5000)
 
 ```
 
+
 Give it a go and see what you can make the robot do with these functions!
 
 <br>
@@ -321,172 +322,185 @@ Have a play around with it, then we can crack on! To start operating this robot 
 
 
 ```python
-"""Sample base code controller for the pick and place girls into coding activity"""
-
-#---------------------
-# Python library imports
-#---------------------
-
-from controller import Robot
-
-#---------------------
-# Starting up the robot
-#---------------------
-
-# Create the Robot instance.
-robot = Robot()
-
-# Get the time step of the current world.
-timestep = int(robot.getBasicTimeStep())
-
-# Inizialize base motors.
-wheels = []
-wheels.append(robot.getMotor("wheel1"))
-wheels.append(robot.getMotor("wheel2"))
-wheels.append(robot.getMotor("wheel3"))
-wheels.append(robot.getMotor("wheel4"))
-for wheel in wheels:
-    # Activate controlling the motors setting the velocity.
-    # Otherwise by default the motor expects to be controlled in force or position,
-    # and setVelocity will set the maximum motor velocity instead of the target velocity.
-    wheel.setPosition(float('+inf'))
-
-# Initialize arm motors.
-armMotors = []
-armMotors.append(robot.getMotor("arm1"))
-armMotors.append(robot.getMotor("arm2"))
-armMotors.append(robot.getMotor("arm3"))
-armMotors.append(robot.getMotor("arm4"))
-armMotors.append(robot.getMotor("arm5"))
-# Set the maximum motor velocity.
-armMotors[0].setVelocity(1)
-armMotors[1].setVelocity(0.5)
-armMotors[2].setVelocity(0.5)
-armMotors[3].setVelocity(0.3)
-
-# Initialize arm position sensors.
-# These sensors can be used to get the current joint position and monitor the joint movements.
-armPositionSensors = []
-armPositionSensors.append(robot.getPositionSensor("arm1sensor"))
-armPositionSensors.append(robot.getPositionSensor("arm2sensor"))
-armPositionSensors.append(robot.getPositionSensor("arm3sensor"))
-armPositionSensors.append(robot.getPositionSensor("arm4sensor"))
-armPositionSensors.append(robot.getPositionSensor("arm5sensor"))
-for sensor in armPositionSensors:
-    sensor.enable(timestep)
-
-# Initialize gripper motors.
-finger1 = robot.getMotor("finger1")
-finger2 = robot.getMotor("finger2")
-# Set the maximum motor velocity.
-finger1.setVelocity(0.03)
-finger2.setVelocity(0.03)
-# Read the miminum and maximum position of the gripper motors.
-fingerMinPosition = finger1.getMinPosition()
-fingerMaxPosition = finger1.getMaxPosition()
-
-
-#---------------------
-# Helpful functions for controling the robot (for the girls into coding activity)
-#---------------------
-
-def stopRobotWheels():
-    for wheel in wheels:
-        wheel.setVelocity(0.0)
-    
-def turntoTrolley():
-    """
-    Purpose: For robot kinematics demo, to turn robot towards trolley
-    """
-    wheels[0].setVelocity(8.5)
-    wheels[1].setVelocity(-4.5)
-    wheels[2].setVelocity(8.5)
-    wheels[3].setVelocity(-4.5)
-    # Wait for a fixed amount to step that the robot rotates.
-    robot.step(150 * timestep)
-    stopRobotWheels()
-    
-    
-def kinem_moveJoint(jt_num, postn):
-    """
-    Purpose: To move the joint given by jt_num to the given position, postn.
-    Notes: There are joint maximums and minimums, will include error handling
-    """
-    if jt_num == 1:
-        if postn > 1.57 or postn <-1.13:
-            # the position is out of range, I'll let you know!
-            print("Joint 1 value is out of range, please give a value between -1.13 and 1.57.")
-        else:
-            # Move arm
-            armMotors[1].setPosition(postn) # Range is -1.13 to 1.57
-            print("Moving Joint 1 to {}".format(postn)) # So you know what the controller is doing!
-            
-            # This code helps to run the simulator until the joint is in the position you told it to go to.
-            while robot.step(timestep) != -1:
-                if abs(armPositionSensors[1].getValue() - (postn)) < 0.01:
-                # Motion completed.
-                    break
-            
-    elif jt_num == 2:
-        if postn > 2.55 or postn <-2.64:
-            # the position is out of range, I'll let you know!
-            print("Joint 2 value is out of range, please give a value between -2.64 and 2.55.")
-        else:
-            # Move arm
-            armMotors[2].setPosition(postn) # Range is -2.64 to 2.55
-            print("Moving Joint 2 to {}".format(postn)) # So you know what the controller is doing!
-            
-            # This code helps to run the simulator until the joint is in the position you told it to go to.
-            while robot.step(timestep) != -1:
-                if abs(armPositionSensors[2].getValue() - (postn)) < 0.01:
-                # Motion completed.
-                    break
-            
-    elif jt_num == 3:
-        if postn > 1.78 or postn <-1.78:
-            # the position is out of range, I'll let you know!
-            print("Joint 3 value is out of range, please give a value between -1.78 and 1.78.")
-        else:
-            # Move arm
-            armMotors[3].setPosition(postn) # Range is -1.78 to 1.78
-            print("Moving Joint 3 to {}".format(postn)) # So you know what the controller is doing!
-            
-            # This code helps to run the simulator until the joint is in the position you told it to go to.
-            while robot.step(timestep) != -1:
-                if abs(armPositionSensors[3].getValue() - (postn)) < 0.01:
-                # Motion completed.
-                    break
-            
-    else:
-        # For this exercise, we just want to use joints 1, 2, and 3. If you want to use the other joints,
-        # take a look at the original example code given by robot benchmark!
-        print("You can only use Joints 1, 2, and 3 for this exercise.")
-    
-
-
-#---------------------
-# Enter your code below here for the girls into coding exercise to run the robot ! ! 
-#---------------------
-
-# Fill in the positions here!
-Joint_1_postn = -1.0   # -1.13 to 1.57
-Joint_2_postn = -0.6   # -2.64 to 2.55
-Joint_3_postn = -0.75  # -1.78 to 1.78
-
-
-# The following code will execute the action. Try and touch the box!
-turntoTrolley()
-kinem_moveJoint(1, Joint_1_postn) 
-kinem_moveJoint(2, Joint_2_postn) 
-kinem_moveJoint(3, Joint_3_postn) 
 
 
 ```
+
+<div class="container">
+  <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo2">Example answer</button>
+  <div id="demo2" class="collapse" markdown="1">
+                
+        """Sample base code controller for the pick and place girls into coding  activity"""
+
+        #---------------------
+        # Python library imports
+        #---------------------
+
+        from controller import Robot
+
+        #---------------------
+        # Starting up the robot
+        #---------------------
+
+        # Create the Robot instance.
+        robot = Robot()
+
+        # Get the time step of the current world.
+        timestep = int(robot.getBasicTimeStep())
+
+        # Inizialize base motors.
+        wheels = []
+        wheels.append(robot.getMotor("wheel1"))
+        wheels.append(robot.getMotor("wheel2"))
+        wheels.append(robot.getMotor("wheel3"))
+        wheels.append(robot.getMotor("wheel4"))
+        for wheel in wheels:
+            # Activate controlling the motors setting the velocity.
+            # Otherwise by default the motor expects to be controlled in force or position,
+            # and setVelocity will set the maximum motor velocity instead of the target velocity.
+            wheel.setPosition(float('+inf'))
+
+        # Initialize arm motors.
+        armMotors = []
+        armMotors.append(robot.getMotor("arm1"))
+        armMotors.append(robot.getMotor("arm2"))
+        armMotors.append(robot.getMotor("arm3"))
+        armMotors.append(robot.getMotor("arm4"))
+        armMotors.append(robot.getMotor("arm5"))
+        # Set the maximum motor velocity.
+        armMotors[0].setVelocity(1)
+        armMotors[1].setVelocity(0.5)
+        armMotors[2].setVelocity(0.5)
+        armMotors[3].setVelocity(0.3)
+
+        # Initialize arm position sensors.
+        # These sensors can be used to get the current joint position and monitor the joint movements.
+        armPositionSensors = []
+        armPositionSensors.append(robot.getPositionSensor("arm1sensor"))
+        armPositionSensors.append(robot.getPositionSensor("arm2sensor"))
+        armPositionSensors.append(robot.getPositionSensor("arm3sensor"))
+        armPositionSensors.append(robot.getPositionSensor("arm4sensor"))
+        armPositionSensors.append(robot.getPositionSensor("arm5sensor"))
+        for sensor in armPositionSensors:
+            sensor.enable(timestep)
+
+        # Initialize gripper motors.
+        finger1 = robot.getMotor("finger1")
+        finger2 = robot.getMotor("finger2")
+        # Set the maximum motor velocity.
+        finger1.setVelocity(0.03)
+        finger2.setVelocity(0.03)
+        # Read the miminum and maximum position of the gripper motors.
+        fingerMinPosition = finger1.getMinPosition()
+        fingerMaxPosition = finger1.getMaxPosition()
+
+
+        #---------------------
+        # Helpful functions for controling the robot (for the girls into coding activity)
+        #---------------------
+
+        def stopRobotWheels():
+            for wheel in wheels:
+                wheel.setVelocity(0.0)
+            
+        def turntoTrolley():
+            """
+            Purpose: For robot kinematics demo, to turn robot towards trolley
+            """
+            wheels[0].setVelocity(8.5)
+            wheels[1].setVelocity(-4.5)
+            wheels[2].setVelocity(8.5)
+            wheels[3].setVelocity(-4.5)
+            # Wait for a fixed amount to step that the robot rotates.
+            robot.step(150 * timestep)
+            stopRobotWheels()
+            
+            
+        def kinem_moveJoint(jt_num, postn):
+            """
+            Purpose: To move the joint given by jt_num to the given position, postn.
+            Notes: There are joint maximums and minimums, will include error handling
+            """
+            if jt_num == 1:
+                if postn > 1.57 or postn <-1.13:
+                    # the position is out of range, I'll let you know!
+                    print("Joint 1 value is out of range, please give a value between -1.13 and 1.57.")
+                else:
+                    # Move arm
+                    armMotors[1].setPosition(postn) # Range is -1.13 to 1.57
+                    print("Moving Joint 1 to {}".format(postn)) # So you know what the controller is doing!
+                    
+                    # This code helps to run the simulator until the joint is in the position you told it to go to.
+                    while robot.step(timestep) != -1:
+                        if abs(armPositionSensors[1].getValue() - (postn)) < 0.01:
+                        # Motion completed.
+                            break
+                    
+            elif jt_num == 2:
+                if postn > 2.55 or postn <-2.64:
+                    # the position is out of range, I'll let you know!
+                    print("Joint 2 value is out of range, please give a value between -2.64 and 2.55.")
+                else:
+                    # Move arm
+                    armMotors[2].setPosition(postn) # Range is -2.64 to 2.55
+                    print("Moving Joint 2 to {}".format(postn)) # So you know what the controller is doing!
+                    
+                    # This code helps to run the simulator until the joint is in the position you told it to go to.
+                    while robot.step(timestep) != -1:
+                        if abs(armPositionSensors[2].getValue() - (postn)) < 0.01:
+                        # Motion completed.
+                            break
+                    
+            elif jt_num == 3:
+                if postn > 1.78 or postn <-1.78:
+                    # the position is out of range, I'll let you know!
+                    print("Joint 3 value is out of range, please give a value between -1.78 and 1.78.")
+                else:
+                    # Move arm
+                    armMotors[3].setPosition(postn) # Range is -1.78 to 1.78
+                    print("Moving Joint 3 to {}".format(postn)) # So you know what the controller is doing!
+                    
+                    # This code helps to run the simulator until the joint is in the position you told it to go to.
+                    while robot.step(timestep) != -1:
+                        if abs(armPositionSensors[3].getValue() - (postn)) < 0.01:
+                        # Motion completed.
+                            break
+                    
+            else:
+                # For this exercise, we just want to use joints 1, 2, and 3. If you want to use the other joints,
+                # take a look at the original example code given by robot benchmark!
+                print("You can only use Joints 1, 2, and 3 for this exercise.")
+            
+
+
+        #---------------------
+        # Enter your code below here for the girls into coding exercise to run the robot ! ! 
+        #---------------------
+
+        # Fill in the positions here!
+        Joint_1_postn = -1.0   # -1.13 to 1.57
+        Joint_2_postn = -0.6   # -2.64 to 2.55
+        Joint_3_postn = -0.75  # -1.78 to 1.78
+
+
+        # The following code will execute the action. Try and touch the box!
+        turntoTrolley()
+        kinem_moveJoint(1, Joint_1_postn) 
+        kinem_moveJoint(2, Joint_2_postn) 
+        kinem_moveJoint(3, Joint_3_postn) 
+
+        
+     
+    
+  </div>
+</div>
+
 
 What do you think? 
 * Is it difficult to figure out how far to move the robot?
 * How many tries did you take to touch the box?
 * What about touching the trolley?
+* What if the base of the robot moved in a different direction? How difficult do you think it would be to figure out what angles I need to give to the robot to touch the box and the trolley?
 
 <br>
 <br>
