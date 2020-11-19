@@ -76,7 +76,7 @@ When you want to make a robot move, you want to make sure it will get to where y
 
 Let me give you an example:
 
-I'm going out for a walk. I walk down the road, turn right, and go to the end of the road.
+I'm going out for a walk. I go out of my house, walk down the road, turn right, and go to the end of the road.
 
 **But where am I going??!?**
 
@@ -84,8 +84,8 @@ I'm controlling where I turn and how far I walk, but I don't actually know where
 
 As you can see, I end up at the park.
 
-
 <!--Need to add figure-->
+
 
 <br>
 
@@ -108,6 +108,9 @@ When we work with certain robots, we like to talk about the **Joint Space** and 
 
 Okay, let's get to the fun bit!
 
+<br>
+<br>
+
 
 <!--Comment: This section is markdown again-->
 
@@ -122,6 +125,8 @@ Okay, let's get to the fun bit!
 <h2>Activity #1</h2>
 </div>
 
+<br>
+
 <!--Comment: End of html bootstrap -->
 
 
@@ -133,7 +138,11 @@ Okay, let's get to the fun bit!
 * Read the instructions in the top left hand corner of the screen. You can resize the instruction window by dragging its bottom corner.
 * When you're ready to program the robot, right click on it, and select **Edit controller**
 
+<br>
+
 [![logoPicture](images/image1.png)](https://www.girlsintocoding.com/)
+
+<br>
 
 * A window will pop up with python code in it! This is how we program our virtual robot.
 * Delete the code in the robot controller window
@@ -154,6 +163,10 @@ Okay, let's get to the fun bit!
 
 <br>
 
+
+<div id="Python1" class="container p-3 my-3 bg-secondary text-secondary">
+<h2>Python Code</h2>
+</div>
 
 ```python
 """Sample base code controller for the pick and place girls into coding activity"""
@@ -288,6 +301,7 @@ stopRobotWheels()
 turnRight(4, 5000)
 
 ```
+<br>
 
 Give it a go and see what you can make the robot do with these functions!
 
@@ -312,7 +326,11 @@ In this activity, we're going to focus on just the arm of the robot and make it 
 
 The documentation for the Kuka Youbot will help you understand what it is we will be controlling. Click on the following picture to get to the website:
 
+<br>
+
 [![KukaYoubotJoints](images/KukaYoubotJoints.png)](https://www.cyberbotics.com/doc/guide/youbot)
+
+<br> 
 
 Have a play around with it, then we can crack on! To start operating this robot arm in joint space:
 
@@ -487,6 +505,7 @@ What do you think?
 * Is it difficult to figure out how far to move the robot?
 * How many tries did you take to touch the box?
 * What about touching the trolley?
+* What do you think will happen if the base of the robot moves?
 
 <br>
 <br>
