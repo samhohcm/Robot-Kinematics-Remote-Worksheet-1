@@ -84,8 +84,10 @@ I'm controlling where I turn and how far I walk, but I don't actually know where
 
 As you can see, I end up at the park.
 
-<!--Need to add figure-->
+<br>
 
+![MapExample](images/Map.png)
+*Images Copyright of [Irasutoya](https://www.irasutoya.com)*
 
 <br>
 
@@ -94,9 +96,7 @@ What if I want to get to the supermarket, but I don't know how? (You can see how
 I know where the supermarket is from where I am now, but I don't know which turns to take to get there, or how far to walk. **Inverse Kinematics** helps me figure out what turns I need to take to get where I want to go.
 
 <br>
-
-<!--Need to add figure-->
-
+<br>
 
 ## Joints and Grids
 
@@ -104,7 +104,11 @@ I'm going to introduce some new terms!
 
 When we work with certain robots, we like to talk about the **Joint Space** and the **Cartesian Space**. They're just two ways of describing where our robot is, or its **state**. I'll show you in a bit what these terms mean, but first I'll show you where Forward and Inverse Kinematics fits into all this. I'll come back to this diagram later and you'll understand it better.
 
-<!--Insert diagram-->
+<br>
+
+![JointtoCartesian](images/JointCartesianChart.png)
+
+<br>
 
 Okay, let's get to the fun bit!
 
@@ -318,7 +322,11 @@ When we talk about **Joint Space**, we are describing what each joint of the rob
 
 A good example of this is our own human arm! If I were to make a very simple drawing of how my arm moves, I'd have a shoulder joint, an elbow joint, and a wrist joint. The bones in between are links.
 
-<!--Insert figure here-->
+<br>
+
+![ArmJoint](images/ArmJoints.png)
+
+<br>
 
 In this activity, we're going to focus on just the arm of the robot and make it touch the box! If you observe the arm of the robot, it uses **revolute joints**. These are joints that only rotate, a bit like like the hinges in your room door! 
 
@@ -330,12 +338,26 @@ The documentation for the Kuka Youbot will help you understand what it is we wil
 
 <br> 
 
-Have a play around with it, then we can crack on! To start operating this robot arm in joint space:
+Have a play around with it, and see if you can understand what values you can give the robot, and what it will make the robot do!
+
+The values given in those bars are the angles that the joints can reach. They are in radians, not degrees. The picture below might help you understand what the values mean. The black lines indicate where 'zero' is for that joint, and I've put down the direction that are positive values.
+
+<br>
+
+![JointsInfo](images/Joints_Info.png)
+
+<br>
+
+To start operating this robot arm in joint space:
 
 * Delete the code in the controller window
-* Copy and paste the following code into the robot controller
+* Copy and paste the code in the window below into the robot controller
 * Try and figure out what values of **Joint_1_postn**, **Joint_2_postn**, and **Joint_3_postn** you can put in to get the robot to touch the box! 
-* If you put in values outside of the joint ranges (I've put them next to the variables), you will get an error like below in the console. Reset the simulation and try again with values within the ranges!
+* If you put in values outside of the joint ranges (I've put them next to the variables), you will get an error like below in the console. 
+
+![Errors](images/Errors.png)
+
+Reset the simulation and try again with values within the ranges!
 
 <br>
 
@@ -495,7 +517,7 @@ Joint_3_postn = -0.75  # -1.78 to 1.78
 
 
 # The following code will execute the action. Try and touch the box!
-turntoTrolley()
+turntoTrolley()  # moves the robot base into place
 kinem_moveJoint(1, Joint_1_postn) 
 kinem_moveJoint(2, Joint_2_postn) 
 kinem_moveJoint(3, Joint_3_postn) 
@@ -509,6 +531,7 @@ What do you think?
 * How many tries did you take to touch the box?
 * What about touching the trolley?
 * What do you think will happen if the base of the robot moves?
+
 
 <br>
 <br>
@@ -524,32 +547,36 @@ What do you think?
 
 After playing about with the **Joint Space**, maybe you're thinking "oh, that's not so bad", or maybe you had to take lots of tries to get it to touch the box. Now just imagine if you had a robot with *lots more joints*! Like *twenty*. What about robots like these?
 
-<!--Insert images of delta robots and stuff-->
+![Complexrobots](images/complexrobots.png)
+*Images Copyright [Acrome Robotics](https://acrome.net/)*
+
+<br>
 
 That's a lot of joints you'd have to control, just because you want to touch something with the end of the robot!
 
 Now I'm going to introduce you to **Cartesian Space**. You might have heard of things like **coordinates**. Coordinates are a way of talking about the position of things, and Cartesian is a system of coordinates. If you know maps, you'll have heard of longitude and latitude, it's a bit like that.
 
-The **Cartesian coordinate system** in 2-dimensions (a flat surface!) uses 2 axes: x and y to describe where a point is on that plane. For example, in the image below the cat is at x = 2 and y = 3. Or we can write it as (2, 3) with brackets. So if I told you to put the cat at (2, 5), where would I put it?
+The **Cartesian coordinate system** in 2-dimensions (a flat surface!) uses 2 axes: x and y to describe where a point is on that plane. For example, in the image below the cat is at x = 2 and y = 3. Or we can write it as (2, 3) with brackets. So if I told you to put the cat at (2, -3), where would I put it?
 
 <br>
 
-<!--Insert image-->
+![CoordinateCat](images/Coordinates.png)
+*Cat Image Copyright of [Irasutoya](https://www.irasutoya.com)*
 
 <br>
 
-Okay, so now you have the idea. Here is an image of the robot and a grid over it, with x and y axis measurements. Any point within the outline drawn on the image (also called the workspace) is a place the end of the robot can reach. Let's give it a go!
+Okay, so now you have the idea. Here is an image of the robot and a grid over it, with x and y axis measurements. Any point within the pink area (also called the workspace) is a place the end of the robot can reach. Let's give it a go!
 
 <br>
 
-<!--Image here-->
+![YoubotCoords-nobox](images/YoubotCoordinates-nobox.png)
 
 <br>
 
 * Delete the code in the controller window
 * Copy and paste the following code into the robot controller
 * Try and figure out what values you can put in **x**, **y**, and **phi** to make the robot touch the box!
-* If you put in values that the robot cannot reach, it will put out an error like below in the console window. Reset the simulation and try a different value!
+* If you put in values that the robot cannot reach, it will put out an error. Reset the simulation and try a different value!
 
 <br>
 
@@ -821,13 +848,31 @@ Cartesian_to_Joint(x, y, phi)
 <br>
 
 
-What do you think? Is it still really hard? What if I gave you this image:
+What do you think? Is it still really hard? What if I gave you this hint:
 
-<!--Insert image-->
+<div class="container">
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo3">Hint</button>
+  <div id="demo3" class="collapse">
+    
+    <p><mark><img src="images/YoubotCoordinates-nobox.png" alt="Box_Coordinates"></mark></p>   
+   
+  </div>
+</div>
 
 Does that make it a lot easier?
 
-This is why we use kinematics. It can be hard to imagine in our heads what the end of the robot might do if we changed the position of a joint. But if we changed it to Cartesian space, in 3D, it's a lot easier to imagine and control the robot.
+
+# So that chart we had before...
+
+<br>
+
+<!--Insert image-->
+
+<br>
+
+This is why we use kinematics. It can be hard to imagine in our heads what the end of the robot might do if we changed the position of a joint. **Forward Kinematics** can help us change our joint positions to **Cartesian space**, which can be a lot easier to visualise. If we know a point in **Cartesian space** we want to get to, we can use **Inverse Kinematics** to find the joint positions we need to give our robot.
+
+
 
 
 
