@@ -87,7 +87,7 @@ As you can see, I end up at the park.
 <br>
 
 ![MapExample](images/Map.png)
-*Images Copyright of [Irasutoya](https://www.irasutoya.com)*
+*Cartoons Copyright of [Irasutoya](https://www.irasutoya.com)*
 
 <br>
 
@@ -330,6 +330,12 @@ A good example of this is our own human arm! If I were to make a very simple dra
 
 In this activity, we're going to focus on just the arm of the robot and make it touch the box! If you observe the arm of the robot, it uses **revolute joints**. These are joints that only rotate, a bit like like the hinges in your room door! 
 
+<br>
+
+![TouchtheBox](images/Boxtouch.png)
+
+<br>
+
 The documentation for the Kuka Youbot will help you understand what it is we will be controlling. Click on the following picture to get to the website:
 
 <br>
@@ -347,6 +353,8 @@ The values given in those bars are the angles that the joints can reach. They ar
 ![JointsInfo](images/Joints_Info.png)
 
 <br>
+
+
 
 To start operating this robot arm in joint space:
 
@@ -783,23 +791,23 @@ def Cartesian_to_Joint(x, y, phi):
     l3 = 0.218
     
     # A whole lot of complicated math!
-    big_X = x - (l3*cos(phi))
-    big_Y = y - (l3*sin(phi))
+    big_Y = y - (l3*cos(phi))
+    big_X = x - (l3*sin(phi))
 
-    denom1 = sqrt(big_X**2 + big_Y**2)
-    gamma = atan2((-big_Y/denom1), (-big_X/denom1))
+    denom1 = sqrt(big_Y**2 + big_X**2)
+    gamma = atan2((-big_X/denom1), (-big_Y/denom1))
 
-    denom2 = 2*l1*(sqrt(big_X**2 + big_Y**2))
+    denom2 = 2*l1*(sqrt(big_Y**2 + big_X**2))
 
-    q1_A = gamma + acos(-(big_X**2 + big_Y**2 + l1**2 - l2**2)/denom2)
-    q1_B = gamma - acos(-(big_X**2 + big_Y**2 + l1**2 - l2**2)/denom2)
+    q1_A = gamma + acos(-(big_Y**2 + big_X**2 + l1**2 - l2**2)/denom2)
+    q1_B = gamma - acos(-(big_Y**2 + big_X**2 + l1**2 - l2**2)/denom2)
 
     if q1_A < q1_B:
         q1 = q1_A
     else:
         q1 = q1_B
 
-    q2 = atan2(((big_Y - (l1*sin(q1)))/l2), ((big_X - (l1*cos(q1)))/l2)) - q1
+    q2 = atan2(((big_X - (l1*sin(q1)))/l2), ((big_Y - (l1*cos(q1)))/l2)) - q1
     q3 = phi - q1 - q2
 
     # Just to make sure the outputs come out right!
@@ -833,9 +841,9 @@ def Cartesian_to_Joint(x, y, phi):
 
 # Change these values !!!!!!!!!!!
 
-x = 0.1    # x-coordinate
-y = -0.2   # y-coordinate
-phi = -1.8 # angle of the end of the arm
+x = -0.1    # x-coordinate
+y = -0.05  # y-coordinate
+phi = -2.6 # angle of the end of the arm
 
 # If you put in values that the robot can't get to, you'll see an error in the console!
 
@@ -854,7 +862,7 @@ What do you think? Is it still really hard? What if I gave you this hint:
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo3">Hint</button>
   <div id="demo3" class="collapse">
     
-    <p><mark><img src="images/YoubotCoordinates-nobox.png" alt="Box_Coordinates"></mark></p>   
+    <p><img src="images/YoubotCoordinates-box.png" alt="Box_Coordinates"></p>   
    
   </div>
 </div>

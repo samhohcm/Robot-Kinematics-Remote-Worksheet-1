@@ -85,9 +85,11 @@ def IKin(x, y, phi):
 # q12 = -0.6
 # q13 = -0.75
 # q1 limit = -1.13 to 1.57, q2 limit =  -2.64 to 2.55, q3 limit = -1.78 to 1.78
-[x1, y1, phi1] = FKin(1.0, -1.7, 0.3)
+
+
+[x2, y2, phi2] = FKin(-1.0,-0.6,-1.25) #box
+IKin(x2, y2, phi2)
+
+[x1, y1, phi1] = FKin(-0.7, -1.3, -0.75) #trolley
 IKin(x1, y1, phi1)
 
-
-[x2, y2, phi2] = FKin(-1.0,-0.6,-0.75)
-IKin(x2, y2, phi2)
