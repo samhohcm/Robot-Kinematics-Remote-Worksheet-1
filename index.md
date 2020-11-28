@@ -871,18 +871,26 @@ What do you think? Is it still really hard? What if I gave you this hint:
   </div>
 </div>
 
+<br>
+
 Does that make it a lot easier?
 
+<br>
+<br>
 
 # So that chart we had before...
 
 <br>
 
-<!--Insert image-->
+![JointtoCartesian](images/JointCartesianChart.png)
 
 <br>
 
 This is why we use kinematics. It can be hard to imagine in our heads what the end of the robot might do if we changed the position of a joint. **Forward Kinematics** can help us change our joint positions to **Cartesian space**, which can be a lot easier to visualise. If we know a point in **Cartesian space** we want to get to, we can use **Inverse Kinematics** to find the joint positions we need to give our robot.
+
+This is a really simplified problem with a robot arm, but we use the same principles when we're trying to figure out where a car is, or even flying robots. We used **trigonometry** and **geometry** to do this. 
+
+What else do you think this might be useful for?
 
 
 

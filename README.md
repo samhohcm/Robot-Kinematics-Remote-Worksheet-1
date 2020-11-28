@@ -26,7 +26,9 @@ Simply point your browser to [https://meisben.github.io/girlsIntoCoding-robotben
 
 ## Contributing
 
-Feel free very welcome to contribute if you find any errors in this activity, by initiating a pull request
+Coding, testing, and worksheet draft by [Sam Hoh](https://github.com/samhohcm) based on meisben's first Robot Simulator workshop.
+
+Feel free very welcome to contribute if you find any errors in this activity, by initiating a pull request.
 
 ## Credit
 
