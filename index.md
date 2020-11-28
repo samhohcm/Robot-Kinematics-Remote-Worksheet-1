@@ -76,7 +76,7 @@ When you want to make a robot move, you want to make sure it will get to where y
 
 Let me give you an example:
 
-I'm going out for a walk. I go out of my house, walk down the road, turn right, and go to the end of the road.
+I'm going out for a walk. I go out of my house, walk down the road, take the second left, and keep walking for two blocks.
 
 **But where am I going??!?**
 
@@ -350,7 +350,7 @@ The values given in those bars are the angles that the joints can reach. They ar
 
 <br>
 
-![JointsInfo](images/Joints_Info.png)
+![JointsInfo](images/Joints_info.png)
 
 <br>
 
@@ -573,7 +573,7 @@ The **Cartesian coordinate system** in 2-dimensions (a flat surface!) uses 2 axe
 
 <br>
 
-Okay, so now you have the idea. Here is an image of the robot and a grid over it, with x and y axis measurements. Any point within the pink area (also called the workspace) is a place the end of the robot can reach. Let's give it a go!
+Okay, so now you have the idea. Here is an image of the robot and a grid over it, with **x** and **y** axis measurements. Any point within the pink area (also called the workspace) is a place the end of the robot can reach. Another variable I'd like to talk about is **phi**. This refers to the angle that the last link of the robot is pointing to, and I've also shown you in the figure below what it looks like and the values you can put in.
 
 <br>
 
@@ -581,10 +581,14 @@ Okay, so now you have the idea. Here is an image of the robot and a grid over it
 
 <br>
 
+![PhiInfo](images/EndAngle.png)
+
+<br>
+
 * Delete the code in the controller window
 * Copy and paste the following code into the robot controller
 * Try and figure out what values you can put in **x**, **y**, and **phi** to make the robot touch the box!
-* If you put in values that the robot cannot reach, it will put out an error. Reset the simulation and try a different value!
+* If you put in values that the robot cannot reach, it will put out an error, same as before. Reset the simulation and try a different value!
 
 <br>
 
