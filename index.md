@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pick and place with a robot arm!
+title: Robot Kinematics - Controlling your robot using mathematics!
 ---
 
 <!--Comment: Above here is the header, we need this to generate the web page-->
@@ -26,7 +26,9 @@ This session is designed to be fun! The idea is that we can follow it together o
 <h2>Contents</h2>
 <ul class="list-group">
   <li class="list-group-item"><a href="#resourcesPanel">Resources</a></li>
-  <li class="list-group-item"><a href="#Activity1">Pick and place example code</a></li>
+  <li class="list-group-item"><a href="#Activity1">Getting familiar with the robot arm simulator</a></li>
+  <li class="list-group-item"><a href="#Activity2">Controlling your robot in Joint Space</a></li>
+  <li class="list-group-item"><a href="#Activity3">Controlling your robot in Cartesian Space</a></li>
 </ul>
 </div>
 
