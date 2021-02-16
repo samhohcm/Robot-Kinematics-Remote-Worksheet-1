@@ -9,7 +9,7 @@ title: Robot Kinematics - Controlling your robot using mathematics!
 
 [![logoPicture](images/girlsIntoCodingLogo.jpg)](https://www.girlsintocoding.com/)
 
-A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) using a online version of the free open source [Webots](https://www.cyberbotics.com/) robot simulator.
+A project activity for [Girls Into Coding](https://www.girlsintocoding.com/).
 
 This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace. We're going to be doing some basic python programming in this activity. If you're not too familiar with Python, don't worry, you'll be able to follow along :) ! 
 
@@ -120,7 +120,7 @@ Okay, let's get to the fun bit!
 
 <!--Comment: This section is markdown again-->
 
-# Let's get familiar with our mobile robot arm!
+# Let's build our robot arm!
 ---
 
 <!--Comment: End of markdown-->
@@ -135,182 +135,31 @@ Okay, let's get to the fun bit!
 
 <!--Comment: End of html bootstrap -->
 
+## Robot Arm Assembly - A little journey through mechanical design
 
 <!--Comment: Back to markdown -->
 
-* We'll be using the [robotbenchmark](https://robotbenchmark.net/) website. Today we're going to work with a Kuka Youbot arm!
-* Click on the **Start** button next to the **Pick and place** activity
-* Click on **Start programming this benchmark**
-* Read the instructions in the top left hand corner of the screen. You can resize the instruction window by dragging its bottom corner.
-* When you're ready to program the robot, right click on it, and select **Edit controller**
+First, we need to build our robot arm. You should have the following items:
 
-<br>
-
-[![logoPicture](images/image1.png)](https://www.girlsintocoding.com/)
-
-<br>
-
-* A window will pop up with python code in it! This is how we program our virtual robot.
-* Delete the code in the robot controller window
-* Copy and paste the code from below into the robot controller window - this contains some useful examples and functions
-
-<!--Comment: End of markdown -->
-
-<br>
-
-<div class="container">
-  <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#demo3">Resources</button>
-  <div id="demo3" class="collapse">
-      
-      <p><mark>Python functions explanation at <a href="https://www.w3schools.com/python/python_functions.asp">W3 schools :)</a></mark></p>
-    
-  </div>
-</div>
-
-<br>
+<!-- Photo of all the parts-->
 
 
-### Python Code
 
-```python
-"""Sample base code controller for the pick and place girls into coding activity"""
+<!-- Insert assembly from Ben -->
 
-#---------------------
-# Python library imports
-#---------------------
+Now you've got the arm assembled! Take the mat provided and place the base of the arm in the box. Use the blu-tack we've provided. You might want to use some blu-tack to keep the mat in place too.
 
-from controller import Robot
+Uncap the whiteboard marker and put it in the 2nd arm and adjust the height, then tighten the bolt so that it stays in place.
 
-#---------------------
-# Starting up the robot
-#---------------------
-
-# Create the Robot instance.
-robot = Robot()
-
-# Get the time step of the current world.
-timestep = int(robot.getBasicTimeStep())
-
-# Inizialize base motors.
-wheels = []
-wheels.append(robot.getMotor("wheel1"))
-wheels.append(robot.getMotor("wheel2"))
-wheels.append(robot.getMotor("wheel3"))
-wheels.append(robot.getMotor("wheel4"))
-for wheel in wheels:
-    # Activate controlling the motors setting the velocity.
-    # Otherwise by default the motor expects to be controlled in force or position,
-    # and setVelocity will set the maximum motor velocity instead of the target velocity.
-    wheel.setPosition(float('+inf'))
-
-# Initialize arm motors.
-armMotors = []
-armMotors.append(robot.getMotor("arm1"))
-armMotors.append(robot.getMotor("arm2"))
-armMotors.append(robot.getMotor("arm3"))
-armMotors.append(robot.getMotor("arm4"))
-armMotors.append(robot.getMotor("arm5"))
-# Set the maximum motor velocity.
-armMotors[0].setVelocity(1)
-armMotors[1].setVelocity(0.5)
-armMotors[2].setVelocity(0.5)
-armMotors[3].setVelocity(0.3)
-
-# Initialize arm position sensors.
-# These sensors can be used to get the current joint position and monitor the joint movements.
-armPositionSensors = []
-armPositionSensors.append(robot.getPositionSensor("arm1sensor"))
-armPositionSensors.append(robot.getPositionSensor("arm2sensor"))
-armPositionSensors.append(robot.getPositionSensor("arm3sensor"))
-armPositionSensors.append(robot.getPositionSensor("arm4sensor"))
-armPositionSensors.append(robot.getPositionSensor("arm5sensor"))
-for sensor in armPositionSensors:
-    sensor.enable(timestep)
-
-# Initialize gripper motors.
-finger1 = robot.getMotor("finger1")
-finger2 = robot.getMotor("finger2")
-# Set the maximum motor velocity.
-finger1.setVelocity(0.03)
-finger2.setVelocity(0.03)
-# Read the miminum and maximum position of the gripper motors.
-fingerMinPosition = finger1.getMinPosition()
-fingerMaxPosition = finger1.getMaxPosition()
+## Uploading the code and how to use it
 
 
-#---------------------
-# Helpful functions for controlling the robot (for the girls into coding activity)
-#---------------------
-
-def stopRobotWheels():
-    for wheel in wheels:
-        wheel.setVelocity(0.0)
-
-def moveForward(mySpeed, timeDuration):
-    """
-    Purpose: move the robot forward
-    Notes: mySpeed -> can take values from 1-9
-    """
-    for wheel in wheels:
-        wheel.setVelocity(mySpeed)
-    # Wait until the robot completes the timeDuration for the movement
-    robot.step(timeDuration)
-    stopRobotWheels()
-
-def moveBackward(mySpeed, timeDuration):
-    """
-    Purpose: move the robot backward
-    Notes: mySpeed -> can take values from 1-9
-    """
-    for wheel in wheels:
-        wheel.setVelocity(-mySpeed)
-    # Wait until the robot completes the timeDuration for the movement
-    robot.step(timeDuration)
-    stopRobotWheels()
-
-def turnLeft(mySpeed, timeDuration):
-    """
-    Purpose: turn the robot left
-    Notes: mySpeed -> can take values from 1-9
-    """
-    wheels[0].setVelocity(mySpeed)
-    wheels[1].setVelocity(-mySpeed)
-    wheels[2].setVelocity(mySpeed)
-    wheels[3].setVelocity(-mySpeed)
-    # Wait until the robot completes the timeDuration for the movement
-    robot.step(timeDuration)
-    stopRobotWheels()
-    
-def turnRight(mySpeed, timeDuration):
-    """
-    Purpose: turn the robot right
-    Notes: mySpeed -> can take values from 1-9
-    """
-    wheels[0].setVelocity(-mySpeed)
-    wheels[1].setVelocity(mySpeed)
-    wheels[2].setVelocity(-mySpeed)
-    wheels[3].setVelocity(mySpeed)
-    # Wait until the robot completes the timeDuration for the movement
-    robot.step(timeDuration)
-    stopRobotWheels()
-    
-
-
-#---------------------
-# Enter your code below here for the girls into coding exercise to run the robot ! ! 
-#---------------------
-
-moveForward(4, 5000)
-stopRobotWheels()
-turnRight(4, 5000)
-
-```
-<br>
-
-Give it a go and see what you can make the robot do with these functions!
 
 <br>
 <br>
+
+
+
 
 # Let's try moving in the Joint Space!
 
@@ -330,7 +179,7 @@ A good example of this is our own human arm! If I were to make a very simple dra
 
 <br>
 
-In this activity, we're going to focus on just the arm of the robot and make it touch the box! If you observe the arm of the robot, it uses **revolute joints**. These are joints that only rotate, a bit like like the hinges in your room door! 
+In this activity, we're going to try and make the pen touch the flower! If you observe our robot arm, it uses **revolute joints**. These are joints that only rotate, a bit like like the hinges in your room door! 
 
 <br>
 
@@ -338,27 +187,27 @@ In this activity, we're going to focus on just the arm of the robot and make it 
 
 <br>
 
-The documentation for the Kuka Youbot will help you understand what it is we will be controlling. Click on the following picture to get to the website:
+We've made a little animation that you can use to try and understand what it means to control the robot in joint space. 
 
 <br>
 
-[![KukaYoubotJoints](images/KukaYoubotJoints.png)](https://www.cyberbotics.com/doc/guide/youbot)
+<!-- add Ben's animation -->
 
 <br> 
 
 Have a play around with it, and see if you can understand what values you can give the robot, and what it will make the robot do!
 
-The values given in those bars are the angles that the joints can reach. They are in radians, not degrees. The picture below might help you understand what the values mean. The black lines indicate where 'zero' is for that joint, and I've put down the direction that are positive values.
+The values given in those bars are the angles that the joints can reach. The picture below might help you understand what the values mean. The black lines indicate where 'zero' is for that joint, and I've put down the direction that are positive values.
 
 <br>
 
-![JointsInfo](images/Joints_info.png)
+![JointsInfo](images/Joints_info.png) <!-- Have to replace this -->
 
 <br>
 
 
 
-To start operating this robot arm in joint space:
+To start operating the arm robot arm in joint space:
 
 * Delete the code in the controller window
 * Copy and paste the code in the window below into the robot controller
@@ -373,164 +222,6 @@ Reset the simulation and try again with values within the ranges!
 
 ### Python Code
 ```python
-"""Sample base code controller for the pick and place girls into coding activity"""
-
-#---------------------
-# Python library imports
-#---------------------
-
-from controller import Robot
-
-#---------------------
-# Starting up the robot
-#---------------------
-
-# Create the Robot instance.
-robot = Robot()
-
-# Get the time step of the current world.
-timestep = int(robot.getBasicTimeStep())
-
-# Inizialize base motors.
-wheels = []
-wheels.append(robot.getMotor("wheel1"))
-wheels.append(robot.getMotor("wheel2"))
-wheels.append(robot.getMotor("wheel3"))
-wheels.append(robot.getMotor("wheel4"))
-for wheel in wheels:
-    # Activate controlling the motors setting the velocity.
-    # Otherwise by default the motor expects to be controlled in force or position,
-    # and setVelocity will set the maximum motor velocity instead of the target velocity.
-    wheel.setPosition(float('+inf'))
-
-# Initialize arm motors.
-armMotors = []
-armMotors.append(robot.getMotor("arm1"))
-armMotors.append(robot.getMotor("arm2"))
-armMotors.append(robot.getMotor("arm3"))
-armMotors.append(robot.getMotor("arm4"))
-armMotors.append(robot.getMotor("arm5"))
-# Set the maximum motor velocity.
-armMotors[0].setVelocity(1)
-armMotors[1].setVelocity(0.5)
-armMotors[2].setVelocity(0.5)
-armMotors[3].setVelocity(0.3)
-
-# Initialize arm position sensors.
-# These sensors can be used to get the current joint position and monitor the joint movements.
-armPositionSensors = []
-armPositionSensors.append(robot.getPositionSensor("arm1sensor"))
-armPositionSensors.append(robot.getPositionSensor("arm2sensor"))
-armPositionSensors.append(robot.getPositionSensor("arm3sensor"))
-armPositionSensors.append(robot.getPositionSensor("arm4sensor"))
-armPositionSensors.append(robot.getPositionSensor("arm5sensor"))
-for sensor in armPositionSensors:
-    sensor.enable(timestep)
-
-# Initialize gripper motors.
-finger1 = robot.getMotor("finger1")
-finger2 = robot.getMotor("finger2")
-# Set the maximum motor velocity.
-finger1.setVelocity(0.03)
-finger2.setVelocity(0.03)
-# Read the miminum and maximum position of the gripper motors.
-fingerMinPosition = finger1.getMinPosition()
-fingerMaxPosition = finger1.getMaxPosition()
-
-
-#---------------------
-# Helpful functions for controling the robot (for the girls into coding activity)
-#---------------------
-
-def stopRobotWheels():
-    for wheel in wheels:
-        wheel.setVelocity(0.0)
-    
-def turntoTrolley():
-    """
-    Purpose: For robot kinematics demo, to turn robot towards trolley
-    """
-    wheels[0].setVelocity(8.5)
-    wheels[1].setVelocity(-4.5)
-    wheels[2].setVelocity(8.5)
-    wheels[3].setVelocity(-4.5)
-    # Wait for a fixed amount to step that the robot rotates.
-    robot.step(150 * timestep)
-    stopRobotWheels()
-    
-    
-def kinem_moveJoint(jt_num, postn):
-    """
-    Purpose: To move the joint given by jt_num to the given position, postn.
-    Notes: There are joint maximums and minimums, will include error handling
-    """
-    if jt_num == 1:
-        if postn > 1.57 or postn <-1.13:
-            # the position is out of range, I'll let you know!
-            print("Joint 1 value is out of range, please give a value between -1.13 and 1.57.")
-        else:
-            # Move arm
-            armMotors[1].setPosition(postn) # Range is -1.13 to 1.57
-            print("Moving Joint 1 to {}".format(postn)) # So you know what the controller is doing!
-            
-            # This code helps to run the simulator until the joint is in the position you told it to go to.
-            while robot.step(timestep) != -1:
-                if abs(armPositionSensors[1].getValue() - (postn)) < 0.01:
-                # Motion completed.
-                    break
-            
-    elif jt_num == 2:
-        if postn > 2.55 or postn <-2.64:
-            # the position is out of range, I'll let you know!
-            print("Joint 2 value is out of range, please give a value between -2.64 and 2.55.")
-        else:
-            # Move arm
-            armMotors[2].setPosition(postn) # Range is -2.64 to 2.55
-            print("Moving Joint 2 to {}".format(postn)) # So you know what the controller is doing!
-            
-            # This code helps to run the simulator until the joint is in the position you told it to go to.
-            while robot.step(timestep) != -1:
-                if abs(armPositionSensors[2].getValue() - (postn)) < 0.01:
-                # Motion completed.
-                    break
-            
-    elif jt_num == 3:
-        if postn > 1.78 or postn <-1.78:
-            # the position is out of range, I'll let you know!
-            print("Joint 3 value is out of range, please give a value between -1.78 and 1.78.")
-        else:
-            # Move arm
-            armMotors[3].setPosition(postn) # Range is -1.78 to 1.78
-            print("Moving Joint 3 to {}".format(postn)) # So you know what the controller is doing!
-            
-            # This code helps to run the simulator until the joint is in the position you told it to go to.
-            while robot.step(timestep) != -1:
-                if abs(armPositionSensors[3].getValue() - (postn)) < 0.01:
-                # Motion completed.
-                    break
-            
-    else:
-        # For this exercise, we just want to use joints 1, 2, and 3. If you want to use the other joints,
-        # take a look at the original example code given by robot benchmark!
-        print("You can only use Joints 1, 2, and 3 for this exercise.")
-    
-
-
-#---------------------
-# Enter your code below here for the girls into coding exercise to run the robot ! ! 
-#---------------------
-
-# Fill in the positions here!
-Joint_1_postn = -1.0   # -1.13 to 1.57
-Joint_2_postn = -0.6   # -2.64 to 2.55
-Joint_3_postn = -0.75  # -1.78 to 1.78
-
-
-# The following code will execute the action. Try and touch the box!
-turntoTrolley()  # moves the robot base into place
-kinem_moveJoint(1, Joint_1_postn) 
-kinem_moveJoint(2, Joint_2_postn) 
-kinem_moveJoint(3, Joint_3_postn) 
 
 
 ```
@@ -538,8 +229,7 @@ kinem_moveJoint(3, Joint_3_postn)
 
 What do you think? 
 * Is it difficult to figure out how far to move the robot?
-* How many tries did you take to touch the box?
-* What about touching the trolley?
+* How many tries did you take to touch the flower?
 * What do you think will happen if the base of the robot moves?
 
 
@@ -555,7 +245,7 @@ What do you think?
 
 <br>
 
-After playing about with the **Joint Space**, maybe you're thinking "oh, that's not so bad", or maybe you had to take lots of tries to get it to touch the box. Now just imagine if you had a robot with *lots more joints*! Like *twenty*. What about robots like these?
+After playing about with the **Joint Space**, maybe you're thinking "oh, that's not so bad", or maybe you had to take lots of tries to get it to touch the flower. Now just imagine if you had a robot with *lots more joints*! Like *twenty*. What about robots like these?
 
 ![Complexrobots](images/complexrobots.png)
 *Images Copyright [Acrome Robotics](https://acrome.net/)*
