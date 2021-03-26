@@ -66,7 +66,11 @@ You might be wondering, what in the world is 'kinematics'?
 
 Well, it's just a fancy name we give to the **study of movement**. 
 
+<div class="container-fluid py-1" style="background-color:#e1f0f1;">
+
 Cars move, cats move, humans move, and of course, robots move. We use kinematics to not only figure out where we will end up once we're done moving, but also to figure out how we need to move to get somewhere. Scientists have been using kinematics for a long time to figure out how things roll, bounce, fly, walk, anything you can think of that involves moving!
+
+</div>
 
 <br>
 
