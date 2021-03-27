@@ -7,15 +7,12 @@ title: Robot Kinematics - Controlling your robot using mathematics!
 
 <!--Comment: This section is markdown inside a bootstrap container-->
 
-<div class="container py-1" style="background-color:#e1f0f1;">
-
 [![logoPicture](images/girlsIntoCodingLogo.jpg)](https://www.girlsintocoding.com/)
 
 A project activity for [Girls Into Coding](https://www.girlsintocoding.com/).
 
 This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace. We're going to be doing some basic python programming in this activity. If you're not too familiar with Python, don't worry, you'll be able to follow along :) ! 
 
-</div>
 
 <!--Comment: End of markdown section-->
 
