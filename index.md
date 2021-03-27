@@ -390,6 +390,60 @@ First, we need to build our robot arm. You should have the following items:
     </div>
   </div>
 
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFourteen">
+        Connect the wires from the motor to the Robotics Board.
+      </a>
+    </div>
+    <div id="collapseFourteen" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        The wires connect into the Robotics board in the same order they came from the motor. Attach them gently with the big screwdriver attachment. Their order is Brown (J) -> Motor 1 Connector (Left). Red (J) -> Motor 1 Connector (Right). Orange (J) -> Motor 2 Connector (Left). Yellow (J) -> Motor 2 Connector (Right)
+
+        <img src="images/assembly1/img23_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFifteen">
+        Connect the battery
+      </a>
+    </div>
+    <div id="collapseFifteen" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Take the large AA battery and connect its two wires to the Robotics Board. This is an important step! Make sure not to get the wires the wrong way around. The red wire goes to the screw terminal labelled 'RED +' and the black wire goes to the screw terminal labelled 'Black -' . Check the small switch on the the battery pack, it should be in the 'off position'. 
+
+        <img src="images/assembly1/img25_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br>
+        <img src="images/assembly1/img24_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br>
+        <img src="images/assembly1/img26_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseSixteen">
+        Connect the microbit usb cable to your computer
+      </a>
+    </div>
+    <div id="collapseSixteen" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Connect the micro-usb cable between your computer and the microbit. It plug into the top of the microbit and into the usb port on your computer. When it's connected a red light should come on the microbit, and a yellow light will start flashing.
+
+        <img src="images/assembly1/img27_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br>
+        <img src="images/assembly1/img28_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
 </div>
 
 
