@@ -172,7 +172,7 @@ First, we need to build our robot arm. You should have the following items:
 - 2 jumper leads (4 wires each) <br>
 - 1 usb cable <br>
 
-<img src="./images/assembly1/img1.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+<img src="./images/assembly1/img1_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
 
 
 
@@ -197,7 +197,7 @@ First, we need to build our robot arm. You should have the following items:
         - 3 x nuts (M3) [Includes 1 spare] <br>
 
 
-        <img src="./images/assembly1/img5.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+        <img src="./images/assembly1/img5_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
 
       </div>
     </div>
@@ -215,9 +215,9 @@ First, we need to build our robot arm. You should have the following items:
 
         Sometimes one of the bearings is already placed inside the robot arm #1. If it's not, then why don't you put it in there now! It's a tight fit so you may need to apply a bit of pressure.
         
-        <img src="images/assembly1/img4.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
-        
-        <img src="images/assembly1/img5.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+        <img src="images/assembly1/img4_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+
+        <img src="images/assembly1/img5_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
 
       </div>
     </div>
