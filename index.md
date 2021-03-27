@@ -159,7 +159,7 @@ First, we need to build our robot arm. You should have the following items:
     <div id="collapseOne" class="collapse show" data-parent="#accordion">
       <div class="card-body">
       Have a look inside you box, you should find lots of stuff in there! The box contains: 
-
+<br>
 - 1 microbit <br>
 - 1 kitronik robotics board <br>
 - 2 Stepper motors <br>
