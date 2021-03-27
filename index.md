@@ -44,15 +44,6 @@ This session is designed to be fun! The idea is that we can follow it together o
 </ul>
 </div>
 
-<div id="sessionLinkPanel" class="container p-3 my-3 bg-warning">
-<h2>Actvity series</h2> 
-  <p>This activity session is part of a series on simulating robots, you can see links to all the activities in this series below!</p>
-<ul class="list-group">
-  <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity/" target="_blank" class="list-group-item list-group-item-action"><b>Activity session 1:</b> Intro to robot simulation</a>
-  <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity2/" target="_blank" class="list-group-item list-group-item-action"><b>Activity session 2:</b> Pick and place with a robot arm</a>
-</ul>
-</div>
-
 <!--Comment: This is the end of html bootstrap-->
 
 
@@ -67,11 +58,8 @@ You might be wondering, what in the world is 'kinematics'?
 
 Well, it's just a fancy name we give to the **study of movement**. 
 
-<div class="container py-1" style="background-color:#e1f0f1;">
-
 Cars move, cats move, humans move, and of course, robots move. We use kinematics to not only figure out where we will end up once we're done moving, but also to figure out how we need to move to get somewhere. Scientists have been using kinematics for a long time to figure out how things roll, bounce, fly, walk, anything you can think of that involves moving!
 
-</div>
 
 <br>
 
@@ -125,7 +113,7 @@ Okay, let's get to the fun bit!
 
 <!--Comment: This section is markdown again-->
 
-# Let's build our robot arm!
+# Let's build the first part of our robot arm!
 ---
 
 <!--Comment: End of markdown-->
@@ -144,7 +132,7 @@ Okay, let's get to the fun bit!
 
 <!--Comment: Back to markdown -->
 
-First, we need to build our robot arm. You should have the following items:
+First, we need to start to build our robot arm. Expand the headings below (click on them) to see each step of the instructions.
 
 <!-- Photo of all the parts-->
 
@@ -152,7 +140,7 @@ First, we need to build our robot arm. You should have the following items:
 
   <div class="card">
     <div class="card-header">
-      <a class="card-link" data-toggle="collapse" href="#collapseOne">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne">
         Check contents of box
       </a>
     </div>
