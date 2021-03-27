@@ -172,7 +172,7 @@ First, we need to build our robot arm. You should have the following items:
 - 2 jumper leads (4 wires each) <br>
 - 1 usb cable <br>
 
-<img src="./images/assembly1/img1.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+<img src="./Robot-Kinematics-Remote-Worksheet-1/images/assembly1/img1.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
 
 
 
