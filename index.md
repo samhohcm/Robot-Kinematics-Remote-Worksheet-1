@@ -7,7 +7,7 @@ title: Robot Kinematics - Controlling your robot using mathematics!
 
 <!--Comment: This section is markdown inside a bootstrap container-->
 
-<div class="container-lg py-1" style="background-color:#e1f0f1;">
+<div class="container py-1" style="background-color:#e1f0f1;">
 
 [![logoPicture](images/girlsIntoCodingLogo.jpg)](https://www.girlsintocoding.com/)
 
