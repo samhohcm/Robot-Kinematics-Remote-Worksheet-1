@@ -159,23 +159,24 @@ First, we need to build our robot arm. You should have the following items:
     <div id="collapseOne" class="collapse show" data-parent="#accordion">
       <div class="card-body">
       Have a look inside you box, you should find lots of stuff in there! The box contains: 
-<br>
-- 1 microbit <br>
-- 1 kitronik robotics board <br>
-- 2 Stepper motors <br>
-- 1 Bag labelled 'Assembly parts' <br>
-- 2 3D printed robot arm links (labelled 1 and 2) <br>
-- 1 base board (white in color in 4 pieces) <br>
-- 1 x AA 4 battery holder <br>
-- 1 whiteboard marker <br>
-- 1 screwdriver (looks like a pen) <br>
-- 2 jumper leads (4 wires each) <br>
-- 1 usb cable <br>
+        <br>
+        - 1 microbit <br>
+        - 1 kitronik robotics board <br>
+        - 2 Stepper motors <br>
+        - 1 Bag labelled 'Assembly parts' <br>
+        - 2 3D printed robot arm links (labelled 1 and 2) <br>
+        - 1 base board (white in color in 4 pieces) <br>
+        - 1 x AA 4 battery holder <br>
+        - 1 whiteboard marker <br>
+        - 1 screwdriver (looks like a pen) <br>
+        - 2 jumper leads (4 wires each) <br>
+        - 1 usb cable <br>
 
-<img src="./images/assembly1/img1_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
-
-<a href="https://www.w3schools.com"><img src="./images/assembly1/img3_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
-
+        
+        <a href="./images/assembly1/img3_compressed_annotated.jpg"><img src="./images/assembly1/img3_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+        </a>
+        
+        <img src="./images/assembly1/img1_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
 
 
       </div>
