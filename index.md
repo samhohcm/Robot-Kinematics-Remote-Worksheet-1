@@ -171,7 +171,7 @@ First, we need to build our robot arm. You should have the following items:
         - 1 screwdriver (looks like a pen)
         - 2 jumper leads (4 wires each)
         - 1 usb cable
-            </div>
+      </div>
     </div>
   </div>
 
