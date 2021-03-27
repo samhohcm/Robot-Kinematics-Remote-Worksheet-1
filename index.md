@@ -153,13 +153,25 @@ First, we need to build our robot arm. You should have the following items:
   <div class="card">
     <div class="card-header">
       <a class="card-link" data-toggle="collapse" href="#collapseOne">
-        Collapsible Group Item #1
+        Check contents of box
       </a>
     </div>
     <div id="collapseOne" class="collapse show" data-parent="#accordion">
       <div class="card-body">
-        Lorem ipsum..
-      </div>
+        Have a look inside you box, you should find lots of stuff in there! The box contains: 
+
+        - 1 microbit
+        - 1 kitronik robotics board
+        - 2 Stepper motors
+        - 1 Bag labelled 'Assembly parts'
+        - 2 3D printed robot arm links (labelled 1 and 2)
+        - 1 base board (white in color in 4 pieces)
+        - 1 x AA 4 battery holder
+        - 1 whiteboard marker
+        - 1 screwdriver (looks like a pen)
+        - 2 jumper leads (4 wires each)
+        - 1 usb cable
+            </div>
     </div>
   </div>
 
