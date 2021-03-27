@@ -437,7 +437,7 @@ First, we need to build our robot arm. You should have the following items:
         Connect the micro-usb cable between your computer and the microbit. It plug into the top of the microbit and into the usb port on your computer. When it's connected a red light should come on the microbit, and a yellow light will start flashing.
 
         <img src="images/assembly1/img27_compressed.jpg" class="img-fluid" alt="assemblyImage">
-        <br>
+        <br> <br>
         <img src="images/assembly1/img28_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
       </div>
