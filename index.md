@@ -174,6 +174,8 @@ First, we need to build our robot arm. You should have the following items:
 
 <img src="./images/assembly1/img1_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
 
+<a href="https://www.w3schools.com"><img src="./images/assembly1/img3_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+
 
 
       </div>
