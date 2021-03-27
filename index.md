@@ -128,13 +128,15 @@ Okay, let's get to the fun bit!
 
 <!--Comment: End of html bootstrap -->
 
-## Robot Arm Assembly - A little journey through mechanical design
-
 <!--Comment: Back to markdown -->
+
+### Robot Arm Assembly - A little journey through mechanical design
 
 First, we need to start to build our robot arm. Expand the headings below (click on them) to see each step of the instructions.
 
-<!-- Photo of all the parts-->
+<!--Comment: End of markdown-->
+
+<!--Comment: Back to html bootstrap -->
 
 <div id="accordion">
 
@@ -435,8 +437,98 @@ First, we need to start to build our robot arm. Expand the headings below (click
 </div>
 
 
+<!--Comment: This section is markdown again-->
 
-<!-- Insert assembly from Ben -->
+# Let's test the first part of our robot arm
+---
+
+<!--Comment: End of markdown-->
+
+<!--Comment: Back to html bootstrap -->
+
+<div id="Activity1b" class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #1b</h2>
+</div>
+
+<br>
+
+<!--Comment: End of html bootstrap -->
+
+<!--Comment: Back to markdown -->
+
+Whenever we're building a robot (or anything) it's really important to test it works in stages! We've just put our first motor together, so now lets test that it works :)! Follow these instructions to check your motor is moving correctly!
+
+<!--Comment: End of markdown-->
+
+<!--Comment: Back to html bootstrap -->
+
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseOneB">
+        Check contents of box
+      </a>
+    </div>
+    <div id="collapseOneB" class="collapse show" data-parent="#accordion">
+      <div class="card-body">
+      Have a look inside you box, you should find lots of stuff in there! The box contains: 
+        <br>
+        - 1 microbit <br>
+        - 1 kitronik robotics board <br>
+        - 2 Stepper motors <br>
+        - 1 Bag labelled 'Assembly parts' <br>
+        - 2 3D printed robot arm links (labelled 1 and 2) <br>
+        - 1 base board (white in color in 4 pieces) <br>
+        - 1 x AA 4 battery holder <br>
+        - 1 whiteboard marker <br>
+        - 1 screwdriver (looks like a pen) <br>
+        - 2 jumper leads (4 wires each) <br>
+        - 1 usb cable <br>
+
+        
+        <a href="./images/assembly1/img3_compressed_annotated.jpg"><img src="./images/assembly1/img3_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+        </a>
+        <br>
+        <img src="./images/assembly1/img1_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwoB">
+        Check contents of assembly bag
+      </a>
+    </div>
+    <div id="collapseTwoB" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Next have a look in the bag marked 'assembly parts'. You should find the following stuff in there <br>
+
+        Bag contains: <br>
+        - 2 x 3D printed parts (bearing holder and caster holder) <br>
+        - 2 x bearings (or 1 bearing if 1 is already in one of the robot arm links) <br>
+        - 5 x screws (M3 x 6mm countersunk screws) [Includes 1 spare] <br>
+        - 3 x nuts (M3) [Includes 1 spare] <br>
+
+        <a href="./images/assembly1/img4_compressed_annotated.jpg"><img src="./images/assembly1/img4_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage">
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+<!--Comment: End of html bootstrap -->
+
+<!--Comment: Back to markdown -->
+
+
 
 Now you've got the arm assembled! Take the mat provided and place the base of the arm in the box. Use the blu-tack we've provided. You might want to use some blu-tack to keep the mat in place too.
 
