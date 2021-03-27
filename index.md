@@ -199,7 +199,7 @@ First, we need to build our robot arm. You should have the following items:
         - 5 x screws (M3 x 6mm countersunk screws) [Includes 1 spare] <br>
         - 3 x nuts (M3) [Includes 1 spare] <br>
 
-        <a href="./images/assembly1/img4_compressed_annotated.jpg"><img src="./images/assembly1/img4_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+        <a href="./images/assembly1/img4_compressed_annotated.jpg"><img src="./images/assembly1/img4_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage">
         </a>
 
       </div>
@@ -218,7 +218,7 @@ First, we need to build our robot arm. You should have the following items:
 
         Sometimes one of the bearings is already placed inside the robot arm #1. If it's not, then why don't you put it in there now! It's a tight fit so you may need to apply a bit of pressure.
 
-        <img src="images/assembly1/img5_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+        <img src="images/assembly1/img5_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
       </div>
     </div>
@@ -285,6 +285,22 @@ First, we need to build our robot arm. You should have the following items:
         Take the motor. We're going to attach it to the green bearing holder we just put the bearing inside of. Take a single M3 nut out of the 'assembly parts' bag and place it in one of the hexaganol shaped holes in the bearing holder. 
 
         <img src="images/assembly1/img8_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseEight">
+        Continue to attach the first motor!
+      </a>
+    </div>
+    <div id="collapseEight" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Next take a single M3 screw out of the 'assembly bag'. Line the holes up between the green bearing holder and the motor. Insert the screw into the same hole that your nut is resting in, then use the right sized screwdriver attachment to tighten the screw. You may need to hold the nut in place with your finger. You need to turn it clockwise to tighten it! A good way to remember this is the phrase "righty tighty, lefty loosy".
+
+        <img src="images/assembly1/img14_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage">
 
       </div>
     </div>
