@@ -436,6 +436,7 @@ First, we need to start to build our robot arm. Expand the headings below (click
 
 </div>
 
+<br><br>
 
 <!--Comment: This section is markdown again-->
 
