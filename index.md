@@ -7,7 +7,7 @@ title: Robot Kinematics - Controlling your robot using mathematics!
 
 <!--Comment: This section is markdown inside a bootstrap container-->
 
-<div class="container py-1" style="background-color:#e1f0f1;">
+<div class="container-lg py-1" style="background-color:#e1f0f1;">
 
 [![logoPicture](images/girlsIntoCodingLogo.jpg)](https://www.girlsintocoding.com/)
 
@@ -42,7 +42,6 @@ This session is designed to be fun! The idea is that we can follow it together o
 <ul class="list-group">
   <a href="https://www.w3schools.com/python/" target="_blank" class="list-group-item list-group-item-action">Python tutorials at W3 Schools</a>
   <a href="https://www.pythoncheatsheet.org/" target="_blank" class="list-group-item list-group-item-action">Python cheatsheet</a>
-  <a href="https://www.cyberbotics.com/doc/reference/index" target="_blank" class="list-group-item list-group-item-action">Webots documentation</a>
   <a href="https://robohub.org/30-women-in-robotics-you-need-to-know-about-2019/" target="_blank" class="list-group-item list-group-item-action">30 women in robotics you need to know about – 2019</a>
 </ul>
 </div>
