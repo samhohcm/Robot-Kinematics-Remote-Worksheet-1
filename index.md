@@ -300,7 +300,7 @@ First, we need to build our robot arm. You should have the following items:
       <div class="card-body">
         Next take a single M3 screw out of the 'assembly bag'. Line the holes up between the green bearing holder and the motor. Insert the screw into the same hole that your nut is resting in, then use the right sized screwdriver attachment to tighten the screw. You may need to hold the nut in place with your finger. You need to turn it clockwise to tighten it! A good way to remember this is the phrase "righty tighty, lefty loosy".
 
-        <img src="images/assembly1/img14_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage">
+        <img src="images/assembly1/img14_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
       </div>
     </div>
@@ -316,7 +316,7 @@ First, we need to build our robot arm. You should have the following items:
       <div class="card-body">
         Repeat this for the second hole between the green bearing holder and the motor. Take another nut, insert it into the hexaganol shaped hole, and then use a screw to tighten the two parts together.
 
-        <img src="images/assembly1/img15_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage">
+        <img src="images/assembly1/img15_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
       </div>
     </div>
