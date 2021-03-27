@@ -175,7 +175,7 @@ First, we need to build our robot arm. You should have the following items:
         
         <a href="./images/assembly1/img3_compressed_annotated.jpg"><img src="./images/assembly1/img3_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
         </a>
-        
+        <br>
         <img src="./images/assembly1/img1_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
 
 
@@ -234,7 +234,7 @@ First, we need to build our robot arm. You should have the following items:
       <div class="card-body">
         Take the second bearing and put it into the green 'bearing holder' just like in the picture, it should fit in snugly!
 
-        <img src="images/assembly1/img6_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+        <img src="images/assembly1/img6_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
       </div>
     </div>
@@ -251,8 +251,8 @@ First, we need to build our robot arm. You should have the following items:
         Let's take a look at the screwdriver. Take the caps off both ends, you should find different sizes of screwdriver tip. If you give each end a pull you will see that you have four possible sizes of tip. Make sure to select the correct size in this activity. You'll know you've got the right size if it fits snugly into the screw!
 
         <img src="images/assembly1/img10_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
-
-        <img src="images/assembly1/img9_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+        <br>
+        <img src="images/assembly1/img9_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
       </div>
     </div>
@@ -268,7 +268,7 @@ First, we need to build our robot arm. You should have the following items:
       <div class="card-body">
         Take one of the motors out of its bag and place it next to the bearing holder.  Have a look at it in your hand. You should be able to identify some electrical wires and a connector, as well as the shaft. The shaft is the part which turns and makes things move. How many wires does it have coming out of it?
 
-        <img src="images/assembly1/img7_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+        <img src="images/assembly1/img7_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
       </div>
     </div>
@@ -284,7 +284,7 @@ First, we need to build our robot arm. You should have the following items:
       <div class="card-body">
         Take the motor. We're going to attach it to the green bearing holder we just put the bearing inside of. Take a single M3 nut out of the 'assembly parts' bag and place it in one of the hexaganol shaped holes in the bearing holder. 
 
-        <img src="images/assembly1/img8_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+        <img src="images/assembly1/img8_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage">
 
       </div>
     </div>
@@ -317,6 +317,56 @@ First, we need to build our robot arm. You should have the following items:
         Repeat this for the second hole between the green bearing holder and the motor. Take another nut, insert it into the hexaganol shaped hole, and then use a screw to tighten the two parts together.
 
         <img src="images/assembly1/img15_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTen">
+        Assemble the jigsaw base
+      </a>
+    </div>
+    <div id="collapseTen" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        The mat for the robot arm is cut into 4 plastic jigsaw pieces. Take the 4 pieces of the jigsaw and assemble them. There is a Green (robot arm base) attached to one of the pieces, this is the lower left hand corner.  Look carefully at the pieces to line up the Y and X axis correctly. The Y axis should be pointing upwards and the X axis should be horizontal. If the lines are a bit hard to see then just take the whiteboard marker and draw over them, then wipe them with a paper tissue or a piece of kitchen towel.
+
+        <img src="images/assembly1/img16_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseEleven">
+        Finish the robot arm base
+      </a>
+    </div>
+    <div id="collapseEleven" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Clip the motor into the robot arm base. Make sure the wires of the motor are pointing towards you. You will have to gently bend the side of the base so that it snaps in! Well done! You have finished the installation of our base motor! :)
+
+        <img src="images/assembly1/img17_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br>
+        <img src="images/assembly1/img19_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwelve">
+        Attach wires to the robot arm base motor
+      </a>
+    </div>
+    <div id="collapseTwelve" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Take the jumper wires with the colors brown, red, orange, yellow. Take the small screwdriver and gently screw these into the motor connector. The don't need to be screwed hard, just gently so that if you give them a little tug they can't pull out. They should  be connected so that for the Jumper (J) and the Motor (M) wires that: Yellow (J) matches Black (M). Orange (J) matches Yellow (M). Red (J) matches White (M). And Brown (J) matches Red (M). Remember righty tighty, lefty loosy!
+
+        <img src="images/assembly1/img20_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
       </div>
     </div>
