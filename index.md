@@ -11,6 +11,8 @@ title: Robot Kinematics - Controlling your robot using mathematics!
 
 A project activity for [Girls Into Coding](https://www.girlsintocoding.com/).
 
+</div>
+
 This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace. We're going to be doing some basic python programming in this activity. If you're not too familiar with Python, don't worry, you'll be able to follow along :) ! 
 
 
@@ -591,4 +593,4 @@ What else do you think this might be useful for?
 
 
 
-
+<div class="container">
