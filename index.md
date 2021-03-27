@@ -189,6 +189,8 @@ First, we need to build our robot arm. You should have the following items:
     <div id="collapseTwo" class="collapse" data-parent="#accordion">
       <div class="card-body">
         Lorem ipsum..
+        <img src="/images/assembly1/img1.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+
       </div>
     </div>
   </div>
@@ -202,6 +204,8 @@ First, we need to build our robot arm. You should have the following items:
     <div id="collapseThree" class="collapse" data-parent="#accordion">
       <div class="card-body">
         Lorem ipsum..
+        <img src="images/assembly1/img1.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+
       </div>
     </div>
   </div>
