@@ -160,17 +160,17 @@ First, we need to build our robot arm. You should have the following items:
       <div class="card-body">
       Have a look inside you box, you should find lots of stuff in there! The box contains: 
 
-- 1 microbit
-- 1 kitronik robotics board
-- 2 Stepper motors
-- 1 Bag labelled 'Assembly parts'
-- 2 3D printed robot arm links (labelled 1 and 2)
-- 1 base board (white in color in 4 pieces)
-- 1 x AA 4 battery holder
-- 1 whiteboard marker
-- 1 screwdriver (looks like a pen)
-- 2 jumper leads (4 wires each)
-- 1 usb cable
+- 1 microbit <br>
+- 1 kitronik robotics board <br>
+- 2 Stepper motors <br>
+- 1 Bag labelled 'Assembly parts' <br>
+- 2 3D printed robot arm links (labelled 1 and 2) <br>
+- 1 base board (white in color in 4 pieces) <br>
+- 1 x AA 4 battery holder <br>
+- 1 whiteboard marker <br>
+- 1 screwdriver (looks like a pen) <br>
+- 2 jumper leads (4 wires each) <br>
+- 1 usb cable <br>
 
 
 
