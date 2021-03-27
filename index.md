@@ -372,6 +372,24 @@ First, we need to build our robot arm. You should have the following items:
     </div>
   </div>
 
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThirteen">
+        Install microbit into the Robotics Board
+      </a>
+    </div>
+    <div id="collapseThirteen" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Take the microbit and install it into the Robotics Board. You will need to push down on it fimly to install it into the connector. Make sure it is the right way around. 
+
+        <img src="images/assembly1/img21_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br>
+        <img src="images/assembly1/img22_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
 </div>
 
 
