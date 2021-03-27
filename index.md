@@ -405,7 +405,7 @@ First, we need to start to build our robot arm. Expand the headings below (click
     <div id="collapseFifteen" class="collapse" data-parent="#accordion">
       <div class="card-body">
         Take the large AA battery and connect its two wires to the Robotics Board. This is an important step! Make sure not to get the wires the wrong way around. The red wire goes to the screw terminal labelled 'RED +' and the black wire goes to the screw terminal labelled 'Black -' . Check the small switch on the the battery pack, it should be in the 'off position'. 
-
+        <br>
         <img src="images/assembly1/img25_compressed.jpg" class="img-fluid" alt="assemblyImage">
         <br>
         <img src="images/assembly1/img24_compressed.jpg" class="img-fluid" alt="assemblyImage">
@@ -425,7 +425,7 @@ First, we need to start to build our robot arm. Expand the headings below (click
     <div id="collapseSixteen" class="collapse" data-parent="#accordion">
       <div class="card-body">
         Connect the micro-usb cable between your computer and the microbit. It plug into the top of the microbit and into the usb port on your computer. When it's connected a red light should come on the microbit, and a yellow light will start flashing.
-
+        <br>
         <img src="images/assembly1/img27_compressed.jpg" class="img-fluid" alt="assemblyImage">
         <br> <br>
         <img src="images/assembly1/img28_compressed.jpg" class="img-fluid" alt="assemblyImage">
