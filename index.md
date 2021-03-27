@@ -183,13 +183,21 @@ First, we need to build our robot arm. You should have the following items:
   <div class="card">
     <div class="card-header">
       <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-        Collapsible Group Item #2
+        Check contents of assembly bag
       </a>
     </div>
     <div id="collapseTwo" class="collapse" data-parent="#accordion">
       <div class="card-body">
-        Lorem ipsum..
-        <img src="/images/assembly1/img1.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+        Next have a look in the bag marked 'assembly parts'. You should find the following stuff in there <br>
+
+        Bag contains: <br>
+        - 2 x 3D printed parts (bearing holder and caster holder) <br>
+        - 2 x bearings (or 1 bearing if 1 is already in one of the robot arm links) <br>
+        - 5 x screws (M3 x 6mm countersunk screws) [Includes 1 spare] <br>
+        - 3 x nuts (M3) [Includes 1 spare] <br>
+
+
+        <img src="./images/assembly1/img5.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
 
       </div>
     </div>
@@ -198,13 +206,18 @@ First, we need to build our robot arm. You should have the following items:
   <div class="card">
     <div class="card-header">
       <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-        Collapsible Group Item #3
+        Let's have a look at the bearings!
       </a>
     </div>
     <div id="collapseThree" class="collapse" data-parent="#accordion">
       <div class="card-body">
-        Lorem ipsum..
-        <img src="images/assembly1/img1.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+        Let's have a look at the bearings, pick up one of the bearings. Give it a spin in your fingers. Why do you think we need it in our robot arm?
+
+        Sometimes one of the bearings is already placed inside the robot arm #1. If it's not, then why don't you put it in there now! It's a tight fit so you may need to apply a bit of pressure.
+        
+        <img src="images/assembly1/img4.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+        
+        <img src="images/assembly1/img5.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
 
       </div>
     </div>
