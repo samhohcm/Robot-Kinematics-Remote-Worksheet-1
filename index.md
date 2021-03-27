@@ -306,6 +306,22 @@ First, we need to build our robot arm. You should have the following items:
     </div>
   </div>
 
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseNine">
+        Finish attaching the first motor
+      </a>
+    </div>
+    <div id="collapseNine" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Repeat this for the second hole between the green bearing holder and the motor. Take another nut, insert it into the hexaganol shaped hole, and then use a screw to tighten the two parts together.
+
+        <img src="images/assembly1/img15_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
 </div>
 
 
