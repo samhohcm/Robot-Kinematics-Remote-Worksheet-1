@@ -199,8 +199,8 @@ First, we need to build our robot arm. You should have the following items:
         - 5 x screws (M3 x 6mm countersunk screws) [Includes 1 spare] <br>
         - 3 x nuts (M3) [Includes 1 spare] <br>
 
-
-        <img src="./images/assembly1/img5_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+        <a href="./images/assembly1/img4_compressed_annotated.jpg"><img src="./images/assembly1/img4_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+        </a>
 
       </div>
     </div>
@@ -217,10 +217,42 @@ First, we need to build our robot arm. You should have the following items:
         Let's have a look at the bearings, pick up one of the bearings. Give it a spin in your fingers. Why do you think we need it in our robot arm?
 
         Sometimes one of the bearings is already placed inside the robot arm #1. If it's not, then why don't you put it in there now! It's a tight fit so you may need to apply a bit of pressure.
-        
-        <img src="images/assembly1/img4_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
 
         <img src="images/assembly1/img5_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+
+      </div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+        Put the second bearing into its position
+      </a>
+    </div>
+    <div id="collapseFour" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Take the second bearing and put it into the green 'bearing holder' just like in the picture, it should fit in snugly!
+
+        <img src="images/assembly1/img6_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+        Our screwdriver
+      </a>
+    </div>
+    <div id="collapseFive" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Let's take a look at the screwdriver. Take the caps off both ends, you should find different sizes of screwdriver tip. If you give each end a pull you will see that you have four possible sizes of tip. Make sure to select the correct size in this activity. You'll know you've got the right size if it fits snugly into the screw!
+
+        <img src="images/assembly1/img10_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+
+        <img src="images/assembly1/img9_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
 
       </div>
     </div>
