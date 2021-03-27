@@ -258,6 +258,38 @@ First, we need to build our robot arm. You should have the following items:
     </div>
   </div>
 
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseSix">
+        Let's look at a motor
+      </a>
+    </div>
+    <div id="collapseSix" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Take one of the motors out of its bag and place it next to the bearing holder.  Have a look at it in your hand. You should be able to identify some electrical wires and a connector, as well as the shaft. The shaft is the part which turns and makes things move. How many wires does it have coming out of it?
+
+        <img src="images/assembly1/img7_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseSeven">
+        Begin to attach the first motor!
+      </a>
+    </div>
+    <div id="collapseSeven" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Take the motor. We're going to attach it to the green bearing holder we just put the bearing inside of. Take a single M3 nut out of the 'assembly parts' bag and place it in one of the hexaganol shaped holes in the bearing holder. 
+
+        <img src="images/assembly1/img8_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+
+      </div>
+    </div>
+  </div>
+
 </div>
 
 
