@@ -416,31 +416,13 @@ First, we need to start to build our robot arm. Expand the headings below (click
     </div>
   </div>
 
-  <div class="card">
-    <div class="card-header">
-      <a class="collapsed card-link" data-toggle="collapse" href="#collapseSixteen">
-        Connect the microbit usb cable to your computer
-      </a>
-    </div>
-    <div id="collapseSixteen" class="collapse" data-parent="#accordion">
-      <div class="card-body">
-        Connect the micro-usb cable between your computer and the microbit. It plug into the top of the microbit and into the usb port on your computer. When it's connected a red light should come on the microbit, and a yellow light will start flashing.
-        <br>
-        <img src="images/assembly1/img27_compressed.jpg" class="img-fluid" alt="assemblyImage">
-        <br> <br>
-        <img src="images/assembly1/img28_compressed.jpg" class="img-fluid" alt="assemblyImage">
-
-      </div>
-    </div>
-  </div>
-
 </div>
 
 <br><br>
 
 <!--Comment: This section is markdown again-->
 
-# Let's test the first part of our robot arm
+# Testing the first motor
 ---
 
 <!--Comment: End of markdown-->
@@ -468,30 +450,15 @@ Whenever we're building a robot (or anything) it's really important to test it w
   <div class="card">
     <div class="card-header">
       <a class="collapsed card-link" data-toggle="collapse" href="#collapseOneB">
-        Check contents of box
+        Attach the 1st robot arm onto the motor
       </a>
     </div>
     <div id="collapseOneB" class="collapse show" data-parent="#accordion">
       <div class="card-body">
-      Have a look inside you box, you should find lots of stuff in there! The box contains: 
-        <br>
-        - 1 microbit <br>
-        - 1 kitronik robotics board <br>
-        - 2 Stepper motors <br>
-        - 1 Bag labelled 'Assembly parts' <br>
-        - 2 3D printed robot arm links (labelled 1 and 2) <br>
-        - 1 base board (white in color in 4 pieces) <br>
-        - 1 x AA 4 battery holder <br>
-        - 1 whiteboard marker <br>
-        - 1 screwdriver (looks like a pen) <br>
-        - 2 jumper leads (4 wires each) <br>
-        - 1 usb cable <br>
-
-        
-        <a href="./images/assembly1/img3_compressed_annotated.jpg"><img src="./images/assembly1/img3_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
-        </a>
-        <br>
-        <img src="./images/assembly1/img1_compressed.jpg" class="img-fluid" alt="assemblyImage" loading="lazy">
+      It can be really hard to see whether a motor shaft is moving unless we attach something to it. So let's do that now. <br> <br> Take the robot arm #1 and place it so that the small 'D' shape in the green part of the robot arm lines up with the motor shaft. You should be able to push the two together gently. Now give the robot arm a gentle turn to check it rotates. <br>
+      <img src="images/assembly1/img30_compressed.jpg" class="img-fluid" alt="assemblyImage">
+      <br> <br>
+      <img src="images/assembly1/img31_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
 
       </div>
@@ -501,21 +468,50 @@ Whenever we're building a robot (or anything) it's really important to test it w
   <div class="card">
     <div class="card-header">
       <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwoB">
-        Check contents of assembly bag
+        Connect the microbit usb cable to your computer
       </a>
     </div>
     <div id="collapseTwoB" class="collapse" data-parent="#accordion">
       <div class="card-body">
-        Next have a look in the bag marked 'assembly parts'. You should find the following stuff in there <br>
+        Connect the micro-usb cable between your computer and the microbit. It plug into the top of the microbit and into the usb port on your computer. When it's connected a red light should come on the microbit, and a yellow light will start flashing.
+        <br>
+        <img src="images/assembly1/img27_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br> <br>
+        <img src="images/assembly1/img28_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
-        Bag contains: <br>
-        - 2 x 3D printed parts (bearing holder and caster holder) <br>
-        - 2 x bearings (or 1 bearing if 1 is already in one of the robot arm links) <br>
-        - 5 x screws (M3 x 6mm countersunk screws) [Includes 1 spare] <br>
-        - 3 x nuts (M3) [Includes 1 spare] <br>
+      </div>
+    </div>
+  </div>
 
-        <a href="./images/assembly1/img4_compressed_annotated.jpg"><img src="./images/assembly1/img4_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage">
-        </a>
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThreeB">
+        Check your microbit is working! - write some code
+      </a>
+    </div>
+    <div id="collapseThreeB" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        In your browser open a new tab and navigate to the online python editor for microbit: <a href="https://python.microbit.org/" target="_blank">Link here</a>
+
+        <br>
+
+        First of all let's test the microbit is working. Enter the following code into the python (tip: some of this code might already be in the editor)....  
+
+        <code>
+        # Our test microbit program
+
+        # Import this library so we can talk to the microbit
+        from microbit import *
+
+        # Loop for ever (infinite loop)
+        while True:
+            display.scroll('Hello, awesome person!')
+            display.show(Image.HEART)
+            sleep(2000)
+        </code>
+
+        <br>
+        You can transfer this code into your python either by typing it in, or by copying and pasting. Please be careful to make sure you enter it exactly the same! Where you put spaces, tabs, brackets, full stops and other punctuation is really important in python because these characters tell the computer how to understand your code!
 
       </div>
     </div>
