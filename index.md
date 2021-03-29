@@ -518,6 +518,81 @@ Whenever we're building a robot (or anything) it's really important to test it w
   </div>
 
 
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFourB">
+        Download the test code to your microbit
+      </a>
+    </div>
+    <div id="collapseFourB" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Download the code and transfer it to your microbit by clicking on 'Connect', selecting your microbit device, and then clicking 'Flash'. If you've got any problems with this you can follow this guide to resolve them: <a href="https://python-editor-2-1-2.microbit.org/help.html?snippets=true" target="_blank">Link here</a>
+        
+        <br>
+
+        You should see your microbit display light up and the code run! Observe what happens on the microbit display. Can you change the text to your name? Can you change the image to another type? (Tip: look at this link)
+
+        If it doesn't work check your code and connections, something is wrong there. And please remember you can always ask for help!
+
+        <br> <br>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFiveB">
+        Reset the microbit
+      </a>
+    </div>
+    <div id="collapseFiveB" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Now try pressing the reset button on the back of the microbit. This restarts the microbit and the program will restart from the beginning. Remember you can always press this if your microbit stops working or becomes unresponsive!
+
+        <br> <br>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseSixB">
+        Turn the power to the motor on
+      </a>
+    </div>
+    <div id="collapseSixB" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Turn the small switch on the battery pack to the 'on position'. 
+
+        <br> <br>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseSevenB">
+        Load our motor code
+      </a>
+    </div>
+    <div id="collapseSevenB" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Next we will load our code to make our motors move!
+
+        You can download the code we will use from this link.
+
+        It will download a python file to your computer. In your python editor click on 'Load' and then select the python file you just downloaded (it's called: ). The code will load and you will see it on your screen.
+
+        <br> <br>
+
+      </div>
+    </div>
+  </div>
+
+
 </div>
 
 
