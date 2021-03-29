@@ -522,9 +522,12 @@ Whenever we're building a robot (or anything) it's really important to test it w
         <br><br>
 
         You should see your microbit display light up and the code run! Observe what happens on the microbit display. <br><br>
-        *Can you change the text to your name? <br>
-        *Can you change the image to another type? (Tip: look at this <a href="https://microbit-micropython.readthedocs.io/en/v1.0.1/tutorials/images.html" target="_blank">link</a>) <br><br>
-
+        <ul>
+        <li>Can you change the text to your name? </li>
+        <li>Can you change the image to another type? (Tip: look at this <a href="https://microbit-micropython.readthedocs.io/en/v1.0.1/tutorials/images.html" target="_blank">link</a>) </li>
+        </ul>
+        <br><br>
+        
         If it doesn't work check your code and connections, something is wrong there. And please remember you can always ask for help!
 
         <br> <br>
