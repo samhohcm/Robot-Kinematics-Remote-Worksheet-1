@@ -474,7 +474,7 @@ Whenever we're building a robot (or anything) it's really important to test it w
     <div id="collapseTwoB" class="collapse" data-parent="#accordion">
       <div class="card-body">
         Connect the micro-usb cable between your computer and the microbit. It plug into the top of the microbit and into the usb port on your computer. When it's connected a red light should come on the microbit, and a yellow light will start flashing.
-        <br>
+        <br><br>
         <img src="images/assembly1/img27_compressed.jpg" class="img-fluid" alt="assemblyImage">
         <br> <br>
         <img src="images/assembly1/img28_compressed.jpg" class="img-fluid" alt="assemblyImage">
@@ -495,7 +495,7 @@ Whenever we're building a robot (or anything) it's really important to test it w
 
         <br>
 
-        First of all let's test the microbit is working. Enter the following code into the python (tip: some of this code might already be in the editor)....  
+        First of all let's test the microbit is working. Enter the following code into the python <br> 
 
         <script src="https://gist.github.com/meisben/ac85b4e31963a878a4bfe12f53970e72.js"></script>
 
@@ -517,9 +517,11 @@ Whenever we're building a robot (or anything) it's really important to test it w
       <div class="card-body">
         Download the code and transfer it to your microbit by clicking on 'Connect', selecting your microbit device, and then clicking 'Flash'. If you've got any problems with this you can follow this guide to resolve them: <a href="https://python-editor-2-1-2.microbit.org/help.html?snippets=true" target="_blank">Link here</a>
         
-        <br>
+        <br><br>
 
-        You should see your microbit display light up and the code run! Observe what happens on the microbit display. Can you change the text to your name? Can you change the image to another type? (Tip: look at this link)
+        You should see your microbit display light up and the code run! Observe what happens on the microbit display. <br><br>
+        *Can you change the text to your name? <br>
+        *Can you change the image to another type? (Tip: look at this <a href="https://microbit-micropython.readthedocs.io/en/v1.0.1/tutorials/images.html" target="_blank">link</a>) <br><br>
 
         If it doesn't work check your code and connections, something is wrong there. And please remember you can always ask for help!
 
@@ -609,14 +611,14 @@ Whenever we're building a robot (or anything) it's really important to test it w
       <div class="card-body">
         You should see the microbit start up with a picture of a rabbit! That's how you know you've got the right code. It will then display the motor number which is currently being controlled (number 1). To test the motor press either the A or B button. This will move the motor anticlockwise (A) or clockwise (B) by 15 degrees.
 
-        <br>
-
-        If you didn't see the picture of the rabbit, something is wrong with the software! -> Check your code!
-        <br>
-        If your robot arm isn't moving then there maybe something wrong with your connections! -> Check your battery is switched on and check all your wires are securely in their connections (give them a gentle tug).
-        <br>
-        If you accidently press the microbit symbol the code will switch to control motor #2, we don't want this at the moment, so if you do see the number 2 being displayed then just press the microbit symbol on the microbit once to reselect motor #1!
-
+        <br><br>
+        <ul>
+        <li>If you didn't see the picture of the rabbit, something is wrong with the software! -> Check your code!</li>
+        <br><br>
+        <li>If your robot arm isn't moving then there maybe something wrong with your connections! -> Check your battery is switched on and check all your wires are securely in their connections (give them a gentle tug).</li>
+        <br><br>
+        <li>If you accidently press the microbit symbol the code will switch to control motor #2, we don't want this at the moment, so if you do see the number 2 being displayed then just press the microbit symbol on the microbit once to reselect motor #1!</li>
+        </ul>
         <br> <br>
 
       </div>
