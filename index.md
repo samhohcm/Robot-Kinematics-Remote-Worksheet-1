@@ -493,7 +493,7 @@ Whenever we're building a robot (or anything) it's really important to test it w
       <div class="card-body">
         In your browser open a new tab and navigate to the online python editor for microbit: <a href="https://python.microbit.org/" target="_blank">Link here</a>
 
-        <br>
+        <br><br>
 
         First of all let's test the microbit is working. Enter the following code into the python <br> 
 
