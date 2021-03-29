@@ -704,6 +704,70 @@ Whenever we're building a robot (or anything) it's really important to test it w
 
 </div>
 
+<!--Comment: This section is markdown again-->
+
+# Building the second part of our robot arm!
+---
+
+<!--Comment: End of markdown-->
+
+<!--Comment: Back to html bootstrap -->
+
+<div id="Activity1c" class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #1c</h2>
+</div>
+
+<br>
+
+<!--Comment: End of html bootstrap -->
+
+<!--Comment: Back to markdown -->
+
+Let's build the second part of the robot arm!
+
+<!--Comment: End of markdown-->
+
+<!--Comment: Back to html bootstrap -->
+
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseOneC">
+        C1
+      </a>
+    </div>
+    <div id="collapseOneC" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+      It can be really hard to see whether a motor shaft is moving unless we attach something to it. So let's do that now. <br> <br> Take the robot arm #1 and place it so that the small 'D' shape in the green part of the robot arm lines up with the motor shaft. You should be able to push the two together gently. Now give the robot arm a gentle turn to check it rotates. <br>
+      <img src="images/assembly1/img30_compressed.jpg" class="img-fluid" alt="assemblyImage">
+      <br> <br>
+      <img src="images/assembly1/img31_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwoC">
+        C2
+      </a>
+    </div>
+    <div id="collapseTwoC" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Connect the micro-usb cable between your computer and the microbit. It plug into the top of the microbit and into the usb port on your computer. When it's connected a red light should come on the microbit, and a yellow light will start flashing.
+        <br><br>
+        <img src="images/assembly1/img27_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br> <br>
+        <img src="images/assembly1/img28_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+</div>
 
 <!--Comment: End of html bootstrap -->
 
