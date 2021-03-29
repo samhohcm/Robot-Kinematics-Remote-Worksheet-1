@@ -453,7 +453,7 @@ Whenever we're building a robot (or anything) it's really important to test it w
         Attach the 1st robot arm onto the motor
       </a>
     </div>
-    <div id="collapseOneB" class="collapse show" data-parent="#accordion">
+    <div id="collapseOneB" class="collapse" data-parent="#accordion">
       <div class="card-body">
       It can be really hard to see whether a motor shaft is moving unless we attach something to it. So let's do that now. <br> <br> Take the robot arm #1 and place it so that the small 'D' shape in the green part of the robot arm lines up with the motor shaft. You should be able to push the two together gently. Now give the robot arm a gentle turn to check it rotates. <br>
       <img src="images/assembly1/img30_compressed.jpg" class="img-fluid" alt="assemblyImage">
@@ -497,7 +497,7 @@ Whenever we're building a robot (or anything) it's really important to test it w
 
         First of all let's test the microbit is working. Enter the following code into the python (tip: some of this code might already be in the editor)....  
 
-        <code>
+        <pre><code>
         # Our test microbit program
 
         # Import this library so we can talk to the microbit
@@ -508,7 +508,7 @@ Whenever we're building a robot (or anything) it's really important to test it w
             display.scroll('Hello, awesome person!')
             display.show(Image.HEART)
             sleep(2000)
-        </code>
+        </code></pre>
 
         <br>
         You can transfer this code into your python either by typing it in, or by copying and pasting. Please be careful to make sure you enter it exactly the same! Where you put spaces, tabs, brackets, full stops and other punctuation is really important in python because these characters tell the computer how to understand your code!
