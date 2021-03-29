@@ -497,18 +497,7 @@ Whenever we're building a robot (or anything) it's really important to test it w
 
         First of all let's test the microbit is working. Enter the following code into the python (tip: some of this code might already be in the editor)....  
 
-        <pre><code>
-        # Our test microbit program
-
-        # Import this library so we can talk to the microbit
-        from microbit import *
-
-        # Loop for ever (infinite loop)
-        while True:
-            display.scroll('Hello, awesome person!')
-            display.show(Image.HEART)
-            sleep(2000)
-        </code></pre>
+        <script src="https://gist.github.com/meisben/ac85b4e31963a878a4bfe12f53970e72.js"></script>
 
         <br>
         You can transfer this code into your python either by typing it in, or by copying and pasting. Please be careful to make sure you enter it exactly the same! Where you put spaces, tabs, brackets, full stops and other punctuation is really important in python because these characters tell the computer how to understand your code!
@@ -585,6 +574,65 @@ Whenever we're building a robot (or anything) it's really important to test it w
         You can download the code we will use from this link.
 
         It will download a python file to your computer. In your python editor click on 'Load' and then select the python file you just downloaded (it's called: ). The code will load and you will see it on your screen.
+
+        <br> <br>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseEightB">
+        Download the motor code to your microbit
+      </a>
+    </div>
+    <div id="collapseEightB" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Download the code and transfer it to your microbit by clicking on 'Connect', selecting your microbit device, and then clicking 'Flash'. If you've got any problems with this you can follow this guide to resolve them: <a href="https://python-editor-2-1-2.microbit.org/help.html?snippets=true" target="_blank">Link here</a>
+
+        <br> <br>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseNineB">
+        Test the motor is working
+      </a>
+    </div>
+    <div id="collapseNineB" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        You should see the microbit start up with a picture of a rabbit! That's how you know you've got the right code. It will then display the motor number which is currently being controlled (number 1). To test the motor press either the A or B button. This will move the motor anticlockwise (A) or clockwise (B) by 15 degrees.
+
+        <br>
+
+        If you didn't see the picture of the rabbit, something is wrong with the software! -> Check your code!
+        <br>
+        If your robot arm isn't moving then there maybe something wrong with your connections! -> Check your battery is switched on and check all your wires are securely in their connections (give them a gentle tug).
+        <br>
+        If you accidently press the microbit symbol the code will switch to control motor #2, we don't want this at the moment, so if you do see the number 2 being displayed then just press the microbit symbol on the microbit once to reselect motor #1!
+
+        <br> <br>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTenB">
+        Try and move the robot arm (gently)
+      </a>
+    </div>
+    <div id="collapseTenB" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        When the robot arm is stationary, try and turn the robot arm (gently) with your hand. You should find that it no longer moves! This is a feature of stepper motors (the type we are using), they keep their position!
 
         <br> <br>
 
