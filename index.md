@@ -575,11 +575,11 @@ Whenever we're building a robot (or anything) it's really important to test it w
       <div class="card-body">
         Next we will load our code to make our motors move!<br><br>
 
-        You can download the code we will use from this <a href="raw.githubusercontent.com/meisben/girlsintocodingrobotarm/master/test_code_rotation/main_rotation.py" download="main_rotation.py" target="_blank"> link</a>.
+        You can download the code we will use from this <a href="https://raw.githubusercontent.com/meisben/girlsintocodingrobotarm/master/test_code_rotation/main_rotation.py" download="main_rotation.py" target="_blank"> link</a>.
         
         <br><br>
 
-        It will download a python file to your computer. 
+        Right click on the screen and then click -> 'Save as', Save. It will download a python file to your computer. 
 
         <br><br>
         
