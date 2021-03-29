@@ -515,7 +515,9 @@ Whenever we're building a robot (or anything) it's really important to test it w
     </div>
     <div id="collapseFourB" class="collapse" data-parent="#accordion">
       <div class="card-body">
-        Download the code and transfer it to your microbit by clicking on 'Connect', selecting your microbit device, and then clicking 'Flash'. If you've got any problems with this you can follow this guide to resolve them: <a href="https://python-editor-2-1-2.microbit.org/help.html?snippets=true" target="_blank">Link here</a>
+        Download the code and transfer it to your microbit by clicking on 'Connect', selecting your microbit device, and then clicking 'Flash'.
+        <br><br>
+        If you've got any problems with this you can follow this guide to resolve them: <a href="https://python-editor-2-1-2.microbit.org/help.html?snippets=true" target="_blank">Link here</a>
         
         <br><br>
 
@@ -571,11 +573,17 @@ Whenever we're building a robot (or anything) it's really important to test it w
     </div>
     <div id="collapseSevenB" class="collapse" data-parent="#accordion">
       <div class="card-body">
-        Next we will load our code to make our motors move!
+        Next we will load our code to make our motors move!<br><br>
 
-        You can download the code we will use from this link.
+        You can download the code we will use from this <a href="https://raw.githubusercontent.com/meisben/girlsintocodingrobotarm/master/test_code_rotation/main_rotation.py" download> link</a>.
+        
+        <br><br>
 
-        It will download a python file to your computer. In your python editor click on 'Load' and then select the python file you just downloaded (it's called: ). The code will load and you will see it on your screen.
+        It will download a python file to your computer. 
+
+        <br><br>
+        
+        Next, in your python editor click on 'Load' and then select the python file you just downloaded (it's called: ). The code will load and you will see it on your screen.
 
         <br> <br>
 
