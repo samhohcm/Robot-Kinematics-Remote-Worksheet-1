@@ -660,10 +660,26 @@ Whenever we're building a robot (or anything) it's really important to test it w
   <div class="card">
     <div class="card-header">
       <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwelveB">
-        Our motor is working!
+        Understanding the code
       </a>
     </div>
     <div id="collapseTwelveB" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Let's take a look at the code together. We don't need to understand all of it, but lets get a feel for how it works! 
+        <br>
+        How can you get the motor to move further when you push the A or B button? <br>
+        How do you get the microbit to display a different picture when it starts up?
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThirteenB">
+        Our motor is working!
+      </a>
+    </div>
+    <div id="collapseThirteenB" class="collapse" data-parent="#accordion">
       <div class="card-body">
         Great! Our motor is working, now we can assemble the rest of the robot arm!
         <br>
