@@ -677,8 +677,10 @@ Whenever we're building a robot (or anything) it's really important to test it w
       <div class="card-body">
         Let's take a look at the code together. We don't need to understand all of it, but lets get a feel for how it works! 
         <br>
-        How can you get the motor to move further when you push the A or B button? <br>
-        How do you get the microbit to display a different picture when it starts up?
+        <ul>
+        <li>How can you get the motor to move further when you push the A or B button?</li>
+        <li>How do you get the microbit to display a different picture when it starts up?</li>
+        </ul>
       </div>
     </div>
   </div>
