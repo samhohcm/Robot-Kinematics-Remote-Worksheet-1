@@ -582,7 +582,7 @@ Whenever we're building a robot (or anything) it's really important to test it w
       <div class="card-body">
         Next we will load our code to make our motors move!<br><br>
 
-        You can download the code we will use from this <a href="https://raw.githubusercontent.com/meisben/girlsintocodingrobotarm/master/test_code_rotation/main_rotation.py" download="main_rotation.py" target="_blank"> link</a>.
+        You can download the code we will use from this <a href="./activity_code/main_rotation.py" download="main_rotation.py" target="_blank"> link</a>.
         
         <br><br>
 
@@ -1002,10 +1002,12 @@ Whenever we're building a robot (or anything) it's really important to test it w
       <div class="card-body">
         Check that the motor code is still loaded on the microbit. You can do this by pressing the reset button on the microbit. When the board is reset you should see a picture of a snake for 2 seconds! If you can see this then you can skip this step and move to the next one. If you don't see this then follow the instructions below:
 
-        You can download the code we will use from this link.
+        You can download the code we will use from this <a href="./activity_code/main_rotation.py" download="main_rotation.py" target="_blank"> link</a>.
 
-        It will download a python file to your computer. In your python editor click on 'Load' and then select the python file you just downloaded (it's called: ). The code will load and you will see it on your screen.
+        It will download a python file to your computer. In your python editor click on 'Load' and then select the python file you just downloaded (it's called: main_rotation.py). The code will load and you will see it on your screen.
+
         <br><br>
+        
         <img src="images/assembly2/IMG_20210329_171414_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
       </div>
