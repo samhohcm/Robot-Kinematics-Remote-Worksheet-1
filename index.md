@@ -985,7 +985,7 @@ Whenever we're building a robot (or anything) it's really important to test it w
       <br><br>
       Your current progress on building the arm should look something like the picture - if not have a check of the previous steps or let a mentor know. <br>
       <br> <br>
-      <img src="images/assembly2/IMG_20210330_000801_compressed.jpg" class="img-fluid" alt="assemblyImage">
+      <img src="images/assembly2/IMG_20210329_233818_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
 
       </div>
