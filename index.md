@@ -548,6 +548,8 @@ Whenever we're building a robot (or anything) it's really important to test it w
 
         <br> <br>
 
+        <img src="images/assembly2/IMG_20210329_164546_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage">
+
       </div>
     </div>
   </div>
@@ -563,6 +565,8 @@ Whenever we're building a robot (or anything) it's really important to test it w
         Turn the small switch on the battery pack to the 'on position'. 
 
         <br> <br>
+
+        <img src="images/assembly2/IMG_20210329_164621_compressed_annotated.jpg" class="img-fluid" alt="assemblyImage">
 
       </div>
     </div>
@@ -656,27 +660,10 @@ Whenever we're building a robot (or anything) it's really important to test it w
   <div class="card">
     <div class="card-header">
       <a class="collapsed card-link" data-toggle="collapse" href="#collapseElevenB">
-        Try and move the robot arm (gently)
-      </a>
-    </div>
-    <div id="collapseElevenB" class="collapse" data-parent="#accordion">
-      <div class="card-body">
-        Let's take a look at the code together. We don't need to understand all of it, but lets get a feel for how it works! 
-        <br>
-        How can you get the motor to move further when you push the A or B button? <br>
-        How do you get the microbit to display a different picture when it starts up?
-
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-header">
-      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwelveB">
         Understanding the code
       </a>
     </div>
-    <div id="collapseTwelveB" class="collapse" data-parent="#accordion">
+    <div id="collapseElevenB" class="collapse" data-parent="#accordion">
       <div class="card-body">
         Let's take a look at the code together. We don't need to understand all of it, but lets get a feel for how it works! 
         <br>
@@ -706,6 +693,8 @@ Whenever we're building a robot (or anything) it's really important to test it w
 
 
 </div>
+
+<br><br>
 
 <!--Comment: This section is markdown again-->
 
@@ -737,13 +726,14 @@ Let's build the second part of the robot arm!
   <div class="card">
     <div class="card-header">
       <a class="collapsed card-link" data-toggle="collapse" href="#collapseOneC">
-        C1
+        Your current progress
       </a>
     </div>
     <div id="collapseOneC" class="collapse" data-parent="#accordion">
       <div class="card-body">
-      It can be really hard to see whether a motor shaft is moving unless we attach something to it. So let's do that now. <br> <br> Take the robot arm #1 and place it so that the small 'D' shape in the green part of the robot arm lines up with the motor shaft. You should be able to push the two together gently. Now give the robot arm a gentle turn to check it rotates. <br>
-      <img src="images/assembly1/img30_compressed.jpg" class="img-fluid" alt="assemblyImage">
+      For the next stage of building the battery should be turned off so do that now.
+      <br><br>
+      Your current progress on building the arm should look something like the picture - if not have a check of the previous steps or let a mentor know. <br>
       <br> <br>
       <img src="images/assembly1/img31_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
@@ -755,16 +745,62 @@ Let's build the second part of the robot arm!
   <div class="card">
     <div class="card-header">
       <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwoC">
-        C2
+        Remove the first robot arm link
       </a>
     </div>
     <div id="collapseTwoC" class="collapse" data-parent="#accordion">
       <div class="card-body">
-        Connect the micro-usb cable between your computer and the microbit. It plug into the top of the microbit and into the usb port on your computer. When it's connected a red light should come on the microbit, and a yellow light will start flashing.
+        We need to remove the robot arm link #1 in order to attach things to it! Do this now by pulling it gently upwards away from the motor, you can do this with your hand.
         <br><br>
-        <img src="images/assembly1/img27_compressed.jpg" class="img-fluid" alt="assemblyImage">
-        <br> <br>
-        <img src="images/assembly1/img28_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <img src="images/assembly2/IMG_20210329_181849_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThreeC">
+        Remove the first robot arm link
+      </a>
+    </div>
+    <div id="collapseThreeC" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        We will attach the second motor to the robot arm link #1. Take the motor. We're going to attach it to the two holes either side of the bearing in the robot arm link #1. Make sure you get it the right way up!
+
+        <br><br>
+
+        Take two M3 screws out of the 'assembly bag'. Line the holes up between the green motor mount and the gray robot arm link. Insert each screw one at a time, then use the right sized screwdriver attachment to tighten the screw. You need to turn it clockwise to tighten it! A good way to remember this is the phrase "righty tighty, lefty loosy".
+
+        <br><br>
+        <img src="images/assembly2/IMG_20210329_182654_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br><br>
+        <img src="images/assembly2/IMG_20210329_182813_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br><br>
+        <img src="images/assembly2/IMG_20210329_182842_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFourC">
+        Attach the ball caster to the robot arm link #1
+      </a>
+    </div>
+    <div id="collapseFourC" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Take the green ball caster part out of the assembly parts bag, it's easy to identify because it has a ball on the bottom!
+
+        <br><br> 
+
+        This is a clip on part. It clips onto the robot arm link #1. Look at the pictures and clip it on now.
+
+        <br><br>
+        <img src="images/assembly2/IMG_20210329_183151_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br><br>
+        <img src="images/assembly2/IMG_20210329_183205_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
       </div>
     </div>
