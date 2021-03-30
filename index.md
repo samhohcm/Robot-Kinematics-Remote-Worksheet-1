@@ -806,7 +806,251 @@ Let's build the second part of the robot arm!
     </div>
   </div>
 
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFiveC">
+        Attach the ball caster to the robot arm link #1
+      </a>
+    </div>
+    <div id="collapseFiveC" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Take the green ball caster part out of the assembly parts bag, it's easy to identify because it has a ball on the bottom!
+
+        <br><br> 
+
+        This is a clip on part. It clips onto the robot arm link #1. Look at the pictures and clip it on now.
+
+        <br><br>
+        <img src="images/assembly2/IMG_20210329_183151_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br><br>
+        <img src="images/assembly2/IMG_20210329_183205_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseSixC">
+        Attach the robot arm link #1 onto motor #1
+      </a>
+    </div>
+    <div id="collapseSixC" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Now we're going to place the motor arm link #1 so that is attached back onto motor #1. Remember to carefully line up the 'D' shape that fits onto the motor shaft. Look at the photos for how this should look. 
+
+        <br><br>
+        <img src="images/assembly2/IMG_20210329_183328_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br><br>
+        <img src="images/assembly2/IMG_20210329_183340_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseSevenC">
+        Attach the robot arm link #1 onto motor #1
+      </a>
+    </div>
+    <div id="collapseSevenC" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Now we're going to place the motor arm link #1 so that is attached back onto motor #1. Remember to carefully line up the 'D' shape that fits onto the motor shaft. Look at the photos for how this should look. 
+
+        <br><br>
+        <img src="images/assembly2/IMG_20210329_183328_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br><br>
+        <img src="images/assembly2/IMG_20210329_183340_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseEightC">
+        Fit the whiteboard marker into robot arm link #2
+      </a>
+    </div>
+    <div id="collapseEightC" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Take the whiteboard marker and remove the cap, you can place it on the end of the marker to keep it safe. Thread the marker through the hole in the end of robot arm link #2. It should be pointing towards the same side the motor wires are on. Tighten the screw gently so that there is approximately 4cm of the whiteboard marker (nib end) poking out of the hole. Don't worry it doesn't need to be accurate!
+
+        <br><br>
+        <img src="images/assembly2/IMG_20210329_233024_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br><br>
+        <img src="images/assembly2/IMG_20210329_233504_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseNineC">
+        Attach robot arm link #2 to motor #2
+      </a>
+    </div>
+    <div id="collapseNineC" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Take the robot arm link labelled #2. Carefully line up the 'D' shape on the end of the arm link with the motor shaft. Gently push the two pieces together. It should look like the photos below!
+        <br><br>
+        Move the arms so that the whiteboard marker is positioned at the position X = 9 and Y = 0. This is the 'home' position for the robot arm, we will talk about what this means shortly. This is the same position as in the photo below
+
+        <br><br>
+        <img src="images/assembly2/IMG_20210329_233818_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTenC">
+        Attach wires to the robot arm link 2 motor (#2)
+      </a>
+    </div>
+    <div id="collapseTenC" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Take the jumper wires with the colors green, blue, purple, grey. Take the small screwdriver and gently screw these into the motor connector. The don't need to be screwed hard, just gently so that if you give them a little tug they can't pull out. They should  be connected so that for the Jumper (J) and the Motor (M) wires that: Green (J) matches Black (M). Blue (J) matches Yellow (M). Purple (J) matches White (M). And Gray (J) matches Red (M). Remember righty tighty, lefty loosy!
+
+        <br><br>
+        <img src="images/assembly2/IMG_20210330_000801_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseElevenC">
+        Connect the wires from the motor to the Robotics Board.
+      </a>
+    </div>
+    <div id="collapseElevenC" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        The wires connect into the Robotics board in the same order they came from the motor. Attach them gently with the big screwdriver attachment. Their order is Gray (J) -> Motor 3 Connector (Left). Purple (J) -> Motor 3 Connector (Right). Blue (J) -> Motor 4 Connector (Left). Green (J) -> Motor 4 Connector (Right)
+
+        <br><br>
+        [ADD image]
+
+      </div>
+    </div>
+  </div>
+
 </div>
+
+
+<br><br>
+
+<!--Comment: This section is markdown again-->
+
+# Testing the second part of our robot arm!
+---
+
+<!--Comment: End of markdown-->
+
+<!--Comment: Back to html bootstrap -->
+
+<div id="Activity1d" class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #1d</h2>
+</div>
+
+<br>
+
+
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseOneD">
+        Your current progress
+      </a>
+    </div>
+    <div id="collapseOneD" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+      For the next stage of building the battery should be turned on so do that now.
+      <br><br>
+      Your current progress on building the arm should look something like the picture - if not have a check of the previous steps or let a mentor know. <br>
+      <br> <br>
+      <img src="images/assembly2/IMG_20210330_000801_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwoD">
+        Check motor code
+      </a>
+    </div>
+    <div id="collapseTwoD" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Check that the motor code is still loaded on the microbit. You can do this by pressing the reset button on the microbit. When the board is reset you should see a picture of a snake for 2 seconds! If you can see this then you can skip this step and move to the next one. If you don't see this then follow the instructions below:
+
+        You can download the code we will use from this link.
+
+        It will download a python file to your computer. In your python editor click on 'Load' and then select the python file you just downloaded (it's called: ). The code will load and you will see it on your screen.
+        <br><br>
+        <img src="images/assembly2/IMG_20210329_171414_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThreeD">
+        Switch to controlling motor #2
+      </a>
+    </div>
+    <div id="collapseThreeD" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Press the 'microbit logo' on the microbit to switch between motors. You will get a message 'Motor 2' and the number 2 will appear on the display
+        <br><br>
+        <img src="images/assembly2/IMG_20210330_000036_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFourD">
+        Test the motor rotation
+      </a>
+    </div>
+    <div id="collapseFourD" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Press the A or B button and then wait to see if the motor rotates, this will move the robot arm link #2. The motor #2 moves anticlockwise (button A) or clockwise (button B) by 15 degrees.
+
+        <br>
+        <ul>
+        <li>If you didn't see the picture of the snake, something is wrong with the software! -> Check your code!</li>
+        <li>If your robot arm isn't moving then there maybe something wrong with your connections! -> Check your battery is switched on and check all your wires are securely in their connections (give them a gentle tug).</li>
+        <li>If you accidently press the microbit symbol the code will switch to control motor #1, we don't want this at the moment, so if you do see the number 1 being displayed then just press the microbit symbol on the microbit once to reselect motor #1!</li>
+        <li>If your microbit seems unresponsive, then just try to give the reset button a push and see if that helps!</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+<!--Comment: End of html bootstrap -->
+
+<!--Comment: Back to markdown -->
+
+Whenever we're building a robot (or anything) it's really important to test it works in stages! We've just put our second motor together, so now lets test that it works :)! Follow these instructions to test the second motor and link of the robot arm!
+
+<!--Comment: End of markdown-->
+
+<!--Comment: Back to html bootstrap -->
+
 
 <!--Comment: End of html bootstrap -->
 
