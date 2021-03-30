@@ -1039,6 +1039,20 @@ Let's build the second part of the robot arm!
   </div>
 
 
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFiveD">
+        Our motor is working
+      </a>
+    </div>
+    <div id="collapseFiveD" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Great! Our motor #2 is working, now we can talk about kinematics! and then see it working for real with the robot arm!
+      </div>
+    </div>
+  </div>
+
+
 </div>
 
 <!--Comment: End of html bootstrap -->
