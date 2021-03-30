@@ -586,7 +586,7 @@ Whenever we're building a robot (or anything) it's really important to test it w
         
         <br><br>
 
-        Right click on the screen and then click -> 'Save as', Save. It will download a python file to your computer. 
+        This link will download a python file to your computer. 
 
         <br><br>
         
@@ -1007,7 +1007,7 @@ Whenever we're building a robot (or anything) it's really important to test it w
         It will download a python file to your computer. In your python editor click on 'Load' and then select the python file you just downloaded (it's called: main_rotation.py). The code will load and you will see it on your screen.
 
         <br><br>
-        
+
         <img src="images/assembly2/IMG_20210329_171414_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
       </div>
