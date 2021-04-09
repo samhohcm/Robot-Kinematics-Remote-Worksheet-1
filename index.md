@@ -90,18 +90,6 @@ What if I want to get to the supermarket, but I don't know how? (You can see how
 
 I know where the supermarket is from where I am now, but I don't know which turns to take to get there, or how far to walk. **Inverse Kinematics** helps me figure out what turns I need to take to get where I want to go.
 
-<br>
-<br>
-
-## Joints and Grids
-
-I'm going to introduce some new terms!
-
-When we work with certain robots, we like to talk about the **Joint Space** and the **Cartesian Space**. They're just two ways of describing where our robot is, or its **state**. I'll show you in a bit what these terms mean, but first I'll show you where Forward and Inverse Kinematics fits into all this. I'll come back to this diagram later and you'll understand it better.
-
-<br>
-
-![JointtoCartesian](images/JointCartesianChart.png)
 
 <br>
 
@@ -1031,7 +1019,7 @@ Whenever we're building a robot (or anything) it's really important to test it w
 
 <!--Comment: This section is markdown again-->
 
-# Let's experience kinematics!
+# Let's talk about the different types of kinematics in more detail!
 ---
 
 <!--Comment: End of markdown-->
@@ -1049,18 +1037,17 @@ Whenever we're building a robot (or anything) it's really important to test it w
 
 <!--Comment: Back to markdown -->
 
-
-
-Now you've got the arm assembled! 
-
-# Uploading the code and how to use it
-
-PLACEHOLDER - for instructions to download main code
-
-<br>
 <br>
 
+## Joints and Grids
 
+I'm going to introduce some new terms!
+
+When we work with certain robots, we like to talk about the **Joint Space** and the **Cartesian Space**. They're just two ways of describing where our robot is, or its **state**. I'll show you in a bit what these terms mean, but first I'll show you where Forward and Inverse Kinematics fits into all this. I'll come back to this diagram later and you'll understand it better.
+
+<br>
+
+![JointtoCartesian](images/JointCartesianChart.png)
 
 
 # Let's try moving in the Joint Space!
@@ -1160,6 +1147,15 @@ This is why we use kinematics. It can be hard to imagine in our heads what the e
 This is a really simplified problem with a robot arm, but we use the same principles when we're trying to figure out where a car is, or even flying robots. We used **trigonometry** and **geometry** to do this. 
 
 What else do you think this might be useful for?
+
+
+
+# Uploading the code and how to use it
+
+PLACEHOLDER - for instructions to download main code
+
+<br>
+<br>
 
 
 
