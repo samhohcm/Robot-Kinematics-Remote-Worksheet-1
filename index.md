@@ -808,29 +808,6 @@ Let's build the second part of the robot arm!
 
   <div class="card">
     <div class="card-header">
-      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFiveC">
-        Attach the ball caster to the robot arm link #1
-      </a>
-    </div>
-    <div id="collapseFiveC" class="collapse" data-parent="#accordion">
-      <div class="card-body">
-        Take the green ball caster part out of the assembly parts bag, it's easy to identify because it has a ball on the bottom!
-
-        <br><br> 
-
-        This is a clip on part. It clips onto the robot arm link #1. Look at the pictures and clip it on now.
-
-        <br><br>
-        <img src="images/assembly2/IMG_20210329_183151_compressed.jpg" class="img-fluid" alt="assemblyImage">
-        <br><br>
-        <img src="images/assembly2/IMG_20210329_183205_compressed.jpg" class="img-fluid" alt="assemblyImage">
-
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-header">
       <a class="collapsed card-link" data-toggle="collapse" href="#collapseSixC">
         Attach the robot arm link #1 onto motor #1
       </a>
