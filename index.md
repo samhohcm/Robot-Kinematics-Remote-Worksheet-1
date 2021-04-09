@@ -40,7 +40,7 @@ This session is designed to be fun! The idea is that we can follow it together o
 <ul class="list-group">
   <a href="https://www.w3schools.com/python/" target="_blank" class="list-group-item list-group-item-action">Python tutorials at W3 Schools</a>
   <a href="https://www.pythoncheatsheet.org/" target="_blank" class="list-group-item list-group-item-action">Python cheatsheet</a>
-  <a href="https://robohub.org/30-women-in-robotics-you-need-to-know-about-2019/" target="_blank" class="list-group-item list-group-item-action">30 women in robotics you need to know about – 2019</a>
+  <a href="https://robohub.org/30-women-in-robotics-you-need-to-know-about-2020/" target="_blank" class="list-group-item list-group-item-action">30 women in robotics you need to know about – 2020</a>
 </ul>
 </div>
 
@@ -429,8 +429,8 @@ First, we need to start to build our robot arm. Expand the headings below (click
 
 <!--Comment: Back to html bootstrap -->
 
-<div id="Activity1b" class="container p-3 my-3 bg-primary text-primary">
-<h2>Activity #1b</h2>
+<div id="Activity2" class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #2</h2>
 </div>
 
 <br>
@@ -705,8 +705,8 @@ Whenever we're building a robot (or anything) it's really important to test it w
 
 <!--Comment: Back to html bootstrap -->
 
-<div id="Activity1c" class="container p-3 my-3 bg-primary text-primary">
-<h2>Activity #1c</h2>
+<div id="Activity 3" class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #3</h2>
 </div>
 
 <br>
@@ -761,7 +761,7 @@ Let's build the second part of the robot arm!
   <div class="card">
     <div class="card-header">
       <a class="collapsed card-link" data-toggle="collapse" href="#collapseThreeC">
-        Remove the first robot arm link
+        Attach the second motor
       </a>
     </div>
     <div id="collapseThreeC" class="collapse" data-parent="#accordion">
@@ -953,8 +953,8 @@ Let's build the second part of the robot arm!
 
 <!--Comment: Back to html bootstrap -->
 
-<div id="Activity1d" class="container p-3 my-3 bg-primary text-primary">
-<h2>Activity #1d</h2>
+<div id="Activity 4" class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #4</h2>
 </div>
 
 <br>
@@ -1079,8 +1079,8 @@ Whenever we're building a robot (or anything) it's really important to test it w
 
 <!--Comment: Back to html bootstrap -->
 
-<div id="Activity1e" class="container p-3 my-3 bg-primary text-primary">
-<h2>Activity #1e</h2>
+<div id="Activity5" class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #5</h2>
 </div>
 
 <br>
