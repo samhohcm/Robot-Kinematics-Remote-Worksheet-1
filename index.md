@@ -825,24 +825,6 @@ Let's build the second part of the robot arm!
     </div>
   </div>
 
-  <div class="card">
-    <div class="card-header">
-      <a class="collapsed card-link" data-toggle="collapse" href="#collapseSevenC">
-        Attach the robot arm link #1 onto motor #1
-      </a>
-    </div>
-    <div id="collapseSevenC" class="collapse" data-parent="#accordion">
-      <div class="card-body">
-        Now we're going to place the motor arm link #1 so that is attached back onto motor #1. Remember to carefully line up the 'D' shape that fits onto the motor shaft. Look at the photos for how this should look. 
-
-        <br><br>
-        <img src="images/assembly2/IMG_20210329_183328_compressed.jpg" class="img-fluid" alt="assemblyImage">
-        <br><br>
-        <img src="images/assembly2/IMG_20210329_183340_compressed.jpg" class="img-fluid" alt="assemblyImage">
-
-      </div>
-    </div>
-  </div>
 
   <div class="card">
     <div class="card-header">
