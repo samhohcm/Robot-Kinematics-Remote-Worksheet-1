@@ -1019,7 +1019,7 @@ Whenever we're building a robot (or anything) it's really important to test it w
 
 <!--Comment: This section is markdown again-->
 
-# Let's talk about the different types of kinematics in more detail!
+# Let's recap kinematics!
 ---
 
 <!--Comment: End of markdown-->
@@ -1037,8 +1037,6 @@ Whenever we're building a robot (or anything) it's really important to test it w
 
 <!--Comment: Back to markdown -->
 
-<br>
-
 ## Joints and Grids
 
 I'm going to introduce some new terms!
@@ -1049,6 +1047,8 @@ When we work with certain robots, we like to talk about the **Joint Space** and 
 
 ![JointtoCartesian](images/JointCartesianChart.png)
 
+<br>
+<br>
 
 # Let's try moving in the Joint Space!
 
