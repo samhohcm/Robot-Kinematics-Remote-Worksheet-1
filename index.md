@@ -1081,7 +1081,7 @@ POSSIBLE PLACEHOLDER
 
 <br>
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="benisme" data-slug-hash="VwPyxqP" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Robot arm (simplest v3)">
+<p class="codepen" data-height="745" data-theme-id="light" data-default-tab="result" data-user="benisme" data-slug-hash="VwPyxqP" style="height: 745px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Robot arm (simplest v3)">
   <span>See the Pen <a href="https://codepen.io/benisme/pen/VwPyxqP">
   Robot arm (simplest v3)</a> by Ben (<a href="https://codepen.io/benisme">@benisme</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
