@@ -1132,10 +1132,6 @@ This is exactly the same as for our simple robot arm!
 
 <br>
 
-![PhiInfo](images/EndAngle.png)
-
-<br>
-
 # Let's move in Cartesian Space!
 
 <div id="Activity7" class="container p-3 my-3 bg-primary text-primary">
