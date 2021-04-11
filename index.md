@@ -1222,7 +1222,6 @@ In this activity, we're going to try and make the pen touch a flower!
         </ul>
       </div>
     </div>
-    
   </div>
 
 
@@ -1275,9 +1274,10 @@ In this activity, we're going to try and make the pen touch a flower!
         Sometimes you might get the message on the microbit that the arm can't reach a position. This will happen if you input co-ordinates that are impossible for the arm to reach!! (Because of it's geometry)
     </div>
   </div>
-
+</div>
 
 </div>
+
 
 <br><br>
 
