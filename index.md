@@ -1207,14 +1207,12 @@ In this activity, we're going to try and make the pen touch a flower!
     <div id="collapseFourE" class="collapse" data-parent="#accordion">
       <div class="card-body">
         You should see the microbit start up with a picture of a ghost! That's how you know you've got the right code. It will then display the letters XY.
-
         <br> <br>
         <img src="images/assembly3/IMG_20210411_130635_compressed.jpg" class="img-fluid" alt="assemblyImage">
         <br><br>
         <img src="images/assembly3/IMG_20210411_124825_compressed.jpg" class="img-fluid" alt="assemblyImage">
         <br><br>
         Next touch the microbit logo button, the robot arm should move to the approximate position x = 5, y = 5.
-
         <br>
         <ul>
         <li>If you didn't see the picture of the ghost, something is wrong with the software! -> Check your code!</li>
@@ -1224,6 +1222,7 @@ In this activity, we're going to try and make the pen touch a flower!
         </ul>
       </div>
     </div>
+    
   </div>
 
 
