@@ -1169,7 +1169,7 @@ In this activity, we're going to try and make the pen touch a flower!
   <div class="card">
     <div class="card-header">
       <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwoE">
-        Check motor code
+        Load our cartesian control code
       </a>
     </div>
     <div id="collapseTwoE" class="collapse" data-parent="#accordion">
@@ -1240,7 +1240,7 @@ In this activity, we're going to try and make the pen touch a flower!
 
   <div class="card">
     <div class="card-header">
-      <a class="collapsed card-link" data-toggle="collapse" href="#collapseSixE>
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseSixE">
         Program the microbit to move the robot arm to the flower
       </a>
     </div>
