@@ -1161,8 +1161,7 @@ In this activity, we're going to try and make the pen touch a flower!
       The arm should look something like the picture - if not have a check of the previous steps or let a mentor know. <br>
       <br> <br>
       <img src="images/assembly2/IMG_20210329_233818_compressed.jpg" class="img-fluid" alt="assemblyImage">
-
-
+      <br>
       </div>
     </div>
   </div>
@@ -1176,11 +1175,10 @@ In this activity, we're going to try and make the pen touch a flower!
     <div id="collapseTwoE" class="collapse" data-parent="#accordion">
       <div class="card-body">
         Next we will load our code to make our robot arm move with cartesian control!
-
+        <br>
         You can download the code we will use from this <a href="./activity_code/main_cartesian.py" download="main_cartesian.py" target="_blank"> link</a>.
-
+        <br>
         It will download a python file to your computer. In your python editor click on 'Load' and then select the python file you just downloaded (it's called: main_cartesian.py). The code will load and you will see it on your screen.
-
       </div>
     </div>
   </div>
@@ -1224,7 +1222,6 @@ In this activity, we're going to try and make the pen touch a flower!
     </div>
   </div>
 
-
   <div class="card">
     <div class="card-header">
       <a class="collapsed card-link" data-toggle="collapse" href="#collapseFiveE">
@@ -1240,7 +1237,6 @@ In this activity, we're going to try and make the pen touch a flower!
       </div>
     </div>
   </div>
-
 
   <div class="card">
     <div class="card-header">
@@ -1275,6 +1271,7 @@ In this activity, we're going to try and make the pen touch a flower!
       </div>
     </div>
   </div>
+
 </div>
 
 <br><br>
