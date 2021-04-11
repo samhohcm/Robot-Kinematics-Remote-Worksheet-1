@@ -1146,8 +1146,6 @@ This is exactly the same as for our simple robot arm!
 
 In this activity, we're going to try and make the pen touch a flower!
 
-Draw a flower on you board at the position x = HOLD, y = HOLD
-
 <br>
 
 <!--Comment: Back to html bootstrap -->
@@ -1181,15 +1179,11 @@ Draw a flower on you board at the position x = HOLD, y = HOLD
     </div>
     <div id="collapseTwoE" class="collapse" data-parent="#accordion">
       <div class="card-body">
-        Check that the motor code is still loaded on the microbit. You can do this by pressing the reset button on the microbit. When the board is reset you should see a picture of a snake for 2 seconds! If you can see this then you can skip this step and move to the next one. If you don't see this then follow the instructions below:
+        Next we will load our code to make our robot arm move with cartesian control!
 
-        You can download the code we will use from this <a href="./activity_code/main_rotation.py" download="main_rotation.py" target="_blank"> link</a>.
+        You can download the code we will use from this <a href="./activity_code/main_cartesian.py" download="main_cartesian.py" target="_blank"> link</a>.
 
-        It will download a python file to your computer. In your python editor click on 'Load' and then select the python file you just downloaded (it's called: main_rotation.py). The code will load and you will see it on your screen.
-
-        <br><br>
-
-        <img src="images/assembly2/IMG_20210329_171414_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        It will download a python file to your computer. In your python editor click on 'Load' and then select the python file you just downloaded (it's called: main_cartesian.py). The code will load and you will see it on your screen.
 
       </div>
     </div>
@@ -1198,15 +1192,12 @@ Draw a flower on you board at the position x = HOLD, y = HOLD
   <div class="card">
     <div class="card-header">
       <a class="collapsed card-link" data-toggle="collapse" href="#collapseThreeE">
-        Switch to controlling motor #2
+        Download the motor code to your microbit
       </a>
     </div>
     <div id="collapseThreeE" class="collapse" data-parent="#accordion">
       <div class="card-body">
-        Press the 'microbit logo' on the microbit to switch between motors. You will get a message 'Motor 2' and the number 2 will appear on the display
-        <br><br>
-        <img src="images/assembly2/IMG_20210330_000036_compressed.jpg" class="img-fluid" alt="assemblyImage">
-
+        Download the code and transfer it to your microbit by clicking on 'Connect', selecting your microbit device, and then clicking 'Flash'. If you've got any problems with this you can follow this guide to resolve them: https://python-editor-2-1-2.microbit.org/help.html?snippets=true
       </div>
     </div>
   </div>
@@ -1214,18 +1205,23 @@ Draw a flower on you board at the position x = HOLD, y = HOLD
   <div class="card">
     <div class="card-header">
       <a class="collapsed card-link" data-toggle="collapse" href="#collapseFourE">
-        Test the motor rotation
+        Test the cartesian code is working
       </a>
     </div>
     <div id="collapseFourE" class="collapse" data-parent="#accordion">
       <div class="card-body">
-        Press the A or B button and then wait to see if the motor rotates, this will move the robot arm link #2. The motor #2 moves anticlockwise (button A) or clockwise (button B) by 15 degrees.
+        You should see the microbit start up with a picture of a ghost! That's how you know you've got the right code. It will then display the letters XY.
+
+        <br> <br>
+        <img src="images/assembly2/IMG_20210329_233818_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br><br>
+        Next touch the microbit logo button, the robot arm should move to the approximate position x = 5, y = 5.
 
         <br>
         <ul>
-        <li>If you didn't see the picture of the snake, something is wrong with the software! -> Check your code!</li>
+        <li>If you didn't see the picture of the ghost, something is wrong with the software! -> Check your code!</li>
         <li>If your robot arm isn't moving then there maybe something wrong with your connections! -> Check your battery is switched on and check all your wires are securely in their connections (give them a gentle tug).</li>
-        <li>If you accidently press the microbit symbol the code will switch to control motor #1, we don't want this at the moment, so if you do see the number 1 being displayed then just press the microbit symbol on the microbit once to reselect motor #1!</li>
+        <li>If you accidently press the a or b button, the code will move the arm to a different position, we don't want this at the moment. So if you do do that just press the resest button on the microbit and try again! :) 
         <li>If your microbit seems unresponsive, then just try to give the reset button a push and see if that helps!</li>
         </ul>
       </div>
@@ -1236,13 +1232,47 @@ Draw a flower on you board at the position x = HOLD, y = HOLD
   <div class="card">
     <div class="card-header">
       <a class="collapsed card-link" data-toggle="collapse" href="#collapseFiveE">
-        Our motor is working
+        Draw a flower on your actvity board
       </a>
     </div>
     <div id="collapseFiveE" class="collapse" data-parent="#accordion">
       <div class="card-body">
-        Great! Our motor #2 is working, now we can talk about kinematics! and then see it working for real with the robot arm!
+        Draw a flower on you board at the position x = 7, y = 5
       </div>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseSixE>
+        Program the microbit to move the robot arm to the flower
+      </a>
+    </div>
+    <div id="collapseSixE" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        We need to program the microbit to move the robot arm to touch the flower
+        <br>
+        If you touch either the a or b button you will notice that you can input the desired position of the robot arm. The a button increases the y value by 1, and the b button increases the x button by 1.
+        <br>
+        When you want the robot arm to move to the desired position then you press the microbit logo!
+        <br>
+        Try and program the robot arm by pressing the buttons (Tip: you need to press the b button), to move to the position x = 7 and y = 5 so that it touches the flower that we've just drawn.
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseSevenE">
+        Experimenting with the robot arm
+      </a>
+    </div>
+    <div id="collapseSevenE" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Try and pick another position near to the flower and get your arm to move there by programming in the grid co-ordinates. Note that our arm is a low cost version and it's performance isn't brilliant! But hopefully you can see it move to the approximate position!! :) .
+        <br>
+        Sometimes you might get the message on the microbit that the arm can't reach a position. This will happen if you input co-ordinates that are impossible for the arm to reach!! (Because of it's geometry)
     </div>
   </div>
 
