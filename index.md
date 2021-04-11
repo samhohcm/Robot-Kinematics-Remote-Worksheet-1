@@ -1272,12 +1272,10 @@ In this activity, we're going to try and make the pen touch a flower!
         Try and pick another position near to the flower and get your arm to move there by programming in the grid co-ordinates. Note that our arm is a low cost version and it's performance isn't brilliant! But hopefully you can see it move to the approximate position!! :) .
         <br>
         Sometimes you might get the message on the microbit that the arm can't reach a position. This will happen if you input co-ordinates that are impossible for the arm to reach!! (Because of it's geometry)
+      </div>
     </div>
   </div>
 </div>
-
-</div>
-
 
 <br><br>
 
