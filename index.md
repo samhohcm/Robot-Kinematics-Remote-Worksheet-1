@@ -1068,11 +1068,8 @@ A good example of this is our own human arm! If I were to make a very simple dra
 
 <br>
 
-In this activity, we're going to try and make the pen touch the flower! If you observe our robot arm, it uses **revolute joints**. These are joints that only rotate, a bit like like the hinges in your room door! 
+If you observe our robot arm, it uses **revolute joints**. These are joints that only rotate, a bit like like the hinges in your room door! 
 
-<br>
-
-![TouchtheBox](images/Boxtouch.png)
 
 <br>
 
@@ -1082,11 +1079,24 @@ We've made a little animation that you can use to try and understand what it mea
 
 POSSIBLE PLACEHOLDER
 
+<br>
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="benisme" data-slug-hash="VwPyxqP" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Robot arm (simplest v3)">
+  <span>See the Pen <a href="https://codepen.io/benisme/pen/VwPyxqP">
+  Robot arm (simplest v3)</a> by Ben (<a href="https://codepen.io/benisme">@benisme</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<br>
+
+END OF PLACEHOLDER
+
 <br> 
 
-Have a play around with it, and see if you can understand what values you can give the robot, and what it will make the robot do!
+Have a play around with it, and see if you can understand what values you can give the joint, and what it will make the joint do!
 
-The picture below might help you understand what the values mean. The black lines indicate where 'zero' is for that joint, and I've put down the direction that are positive values.
+The picture below might help you understand what the values mean for a more complex robot. The black lines indicate where 'zero' is for that joint, and I've put down the direction that are positive values.
 
 <br>
 
@@ -1109,7 +1119,7 @@ After playing about with the **Joint Space**, maybe you're getting the hang of i
 
 <br>
 
-That's a lot of joints you'd have to control, just because you want to touch something with the end of the robot!
+That's a lot of joints you'd have to control! It wouldn't be easy using joint space alone.
 
 Now I'm going to introduce you to **Cartesian Space**. You might have heard of things like **coordinates**. Coordinates are a way of talking about the position of things, and Cartesian is a system of coordinates. If you know maps, you'll have heard of longitude and latitude, it's a bit like that.
 
@@ -1133,6 +1143,11 @@ Okay, so now you have the idea. Here is an image of the robot and a grid over it
 ![PhiInfo](images/EndAngle.png)
 
 <br>
+
+In this activity, we're going to try and make the pen touch a flower!. Draw a flower on you board at the position x = HOLD, y = HOLD
+
+
+
 
 # So that chart we had before...
 
