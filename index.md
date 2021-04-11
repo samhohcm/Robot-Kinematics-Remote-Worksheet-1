@@ -1052,10 +1052,6 @@ When we work with certain robots, we like to talk about the **Joint Space** and 
 
 # Let's try moving in the Joint Space!
 
-<div id="Activity2" class="container p-3 my-3 bg-primary text-primary">
-<h2>Activity #2</h2>
-</div>
-
 <br>
 
 When we talk about **Joint Space**, we are describing what each joint of the robot is doing. Joints are places where the robot can move, and usually connect two rigid bodies. We use **joints** and **links** to try and simplify the mathematics we need to do.
@@ -1077,20 +1073,12 @@ We've made a little animation that you can use to try and understand what it mea
 
 <br>
 
-POSSIBLE PLACEHOLDER
-
-<br>
-
 <p class="codepen" data-height="745" data-theme-id="light" data-default-tab="result" data-user="benisme" data-slug-hash="VwPyxqP" style="height: 745px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Robot arm (simplest v3)">
   <span>See the Pen <a href="https://codepen.io/benisme/pen/VwPyxqP">
   Robot arm (simplest v3)</a> by Ben (<a href="https://codepen.io/benisme">@benisme</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-<br>
-
-END OF PLACEHOLDER
 
 <br> 
 
@@ -1106,8 +1094,8 @@ The picture below might help you understand what the values mean for a more comp
 
 # What about Cartesian Space?
 
-<div id="Activity3" class="container p-3 my-3 bg-primary text-primary">
-<h2>Activity #3</h2>
+<div id="Activity6" class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #6</h2>
 </div>
 
 <br>
@@ -1132,7 +1120,7 @@ The **Cartesian coordinate system** in 2-dimensions (a flat surface!) uses 2 axe
 
 <br>
 
-Okay, so now you have the idea. Here is an image of the robot and a grid over it, with **x** and **y** axis measurements. Any point within the pink area (also called the workspace) is a place the end of the robot can reach. Another variable I'd like to talk about is **phi**. This refers to the angle that the last link of the robot is pointing to, and I've also shown you in the figure below what it looks like and the values you can put in.
+Okay, so now you have the idea. Here is an image of the robot and a grid over it, with **x** and **y** axis measurements. Any point within the pink area (also called the workspace) is a place the end of the robot can reach.
 
 <br>
 
@@ -1140,16 +1128,136 @@ Okay, so now you have the idea. Here is an image of the robot and a grid over it
 
 <br>
 
+This is exactly the same as for our simple robot arm!
+
+<br>
+
 ![PhiInfo](images/EndAngle.png)
 
 <br>
 
-In this activity, we're going to try and make the pen touch a flower!. Draw a flower on you board at the position x = HOLD, y = HOLD
+# Let's move in Cartesian Space!
+
+<div id="Activity7" class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #7</h2>
+</div>
+
+<br>
+
+In this activity, we're going to try and make the pen touch a flower!
+
+Draw a flower on you board at the position x = HOLD, y = HOLD
+
+<br>
+
+<!--Comment: Back to html bootstrap -->
+
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseOneE">
+        Your current progress
+      </a>
+    </div>
+    <div id="collapseOneE" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+      For the next stage of the activity the battery should be turned on so do that now.
+      <br><br>
+      The arm should look something like the picture - if not have a check of the previous steps or let a mentor know. <br>
+      <br> <br>
+      <img src="images/assembly2/IMG_20210329_233818_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
 
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwoE">
+        Check motor code
+      </a>
+    </div>
+    <div id="collapseTwoE" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Check that the motor code is still loaded on the microbit. You can do this by pressing the reset button on the microbit. When the board is reset you should see a picture of a snake for 2 seconds! If you can see this then you can skip this step and move to the next one. If you don't see this then follow the instructions below:
+
+        You can download the code we will use from this <a href="./activity_code/main_rotation.py" download="main_rotation.py" target="_blank"> link</a>.
+
+        It will download a python file to your computer. In your python editor click on 'Load' and then select the python file you just downloaded (it's called: main_rotation.py). The code will load and you will see it on your screen.
+
+        <br><br>
+
+        <img src="images/assembly2/IMG_20210329_171414_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThreeE">
+        Switch to controlling motor #2
+      </a>
+    </div>
+    <div id="collapseThreeE" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Press the 'microbit logo' on the microbit to switch between motors. You will get a message 'Motor 2' and the number 2 will appear on the display
+        <br><br>
+        <img src="images/assembly2/IMG_20210330_000036_compressed.jpg" class="img-fluid" alt="assemblyImage">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFourE">
+        Test the motor rotation
+      </a>
+    </div>
+    <div id="collapseFourE" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Press the A or B button and then wait to see if the motor rotates, this will move the robot arm link #2. The motor #2 moves anticlockwise (button A) or clockwise (button B) by 15 degrees.
+
+        <br>
+        <ul>
+        <li>If you didn't see the picture of the snake, something is wrong with the software! -> Check your code!</li>
+        <li>If your robot arm isn't moving then there maybe something wrong with your connections! -> Check your battery is switched on and check all your wires are securely in their connections (give them a gentle tug).</li>
+        <li>If you accidently press the microbit symbol the code will switch to control motor #1, we don't want this at the moment, so if you do see the number 1 being displayed then just press the microbit symbol on the microbit once to reselect motor #1!</li>
+        <li>If your microbit seems unresponsive, then just try to give the reset button a push and see if that helps!</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
 
-# So that chart we had before...
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFiveE">
+        Our motor is working
+      </a>
+    </div>
+    <div id="collapseFiveE" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Great! Our motor #2 is working, now we can talk about kinematics! and then see it working for real with the robot arm!
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+<br><br>
+
+<!--Comment: This section is markdown again-->
+
+# (Summary) So that chart we had before...
+
+<div id="Activity8" class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #8</h2>
+</div>
 
 <br>
 
@@ -1163,11 +1271,6 @@ This is a really simplified problem with a robot arm, but we use the same princi
 
 What else do you think this might be useful for?
 
-
-
-# Uploading the code and how to use it
-
-PLACEHOLDER - for instructions to download main code
 
 <br>
 <br>
