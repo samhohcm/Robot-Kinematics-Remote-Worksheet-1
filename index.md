@@ -880,7 +880,7 @@ Let's build the second part of the robot arm!
         The wires connect into the Robotics board in the same order they came from the motor. Attach them gently with the big screwdriver attachment. Their order is Gray (J) -> Motor 3 Connector (Left). Purple (J) -> Motor 3 Connector (Right). Blue (J) -> Motor 4 Connector (Left). Green (J) -> Motor 4 Connector (Right)
 
         <br><br>
-        [ADD image]
+        <img src="images/assembly3/IMG_20210411_124810_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
       </div>
     </div>
@@ -1213,7 +1213,9 @@ In this activity, we're going to try and make the pen touch a flower!
         You should see the microbit start up with a picture of a ghost! That's how you know you've got the right code. It will then display the letters XY.
 
         <br> <br>
-        <img src="images/assembly2/IMG_20210329_233818_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <img src="images/assembly3/IMG_20210411_130635_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br><br>
+        <img src="images/assembly3/IMG_20210411_124825_compressed.jpg" class="img-fluid" alt="assemblyImage">
         <br><br>
         Next touch the microbit logo button, the robot arm should move to the approximate position x = 5, y = 5.
 
@@ -1238,6 +1240,9 @@ In this activity, we're going to try and make the pen touch a flower!
     <div id="collapseFiveE" class="collapse" data-parent="#accordion">
       <div class="card-body">
         Draw a flower on you board at the position x = 7, y = 5
+        <br><br>
+        <img src="images/assembly3/IMG_20210411_125049_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br><br>
       </div>
     </div>
   </div>
