@@ -1215,7 +1215,7 @@ In this activity, we're going to try and make the pen touch a flower!
         <ul>
         <li>If you didn't see the picture of the ghost, something is wrong with the software! -> Check your code!</li>
         <li>If your robot arm isn't moving then there maybe something wrong with your connections! -> Check your battery is switched on and check all your wires are securely in their connections (give them a gentle tug).</li>
-        <li>If you accidently press the a or b button, the code will move the arm to a different position, we don't want this at the moment. So if you do do that just press the resest button on the microbit and try again! :) 
+        <li>If you accidently press the a or b button, the code will move the arm to a different position, we don't want this at the moment. So if you do do that just press the resest button on the microbit and try again! :) </li>
         <li>If your microbit seems unresponsive, then just try to give the reset button a push and see if that helps!</li>
         </ul>
       </div>
