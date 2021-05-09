@@ -612,11 +612,11 @@ Whenever we're building a robot (or anything) it's really important to test it w
     </div>
     <div id="collapseNineB" class="collapse" data-parent="#accordion">
       <div class="card-body">
-        You should see the microbit start up with a picture of a rabbit! That's how you know you've got the right code. It will then display the motor number which is currently being controlled (number 1). To test the motor press either the A or B button. This will move the motor anticlockwise (A) or clockwise (B) by 15 degrees.
+        You should see the microbit start up with a picture of a snake! That's how you know you've got the right code. It will then display the motor number which is currently being controlled (number 1). To test the motor press either the A or B button. This will move the motor anticlockwise (A) or clockwise (B) by 15 degrees.
 
         <br><br>
         <ul>
-        <li>If you didn't see the picture of the rabbit, something is wrong with the software! -> Check your code!</li>
+        <li>If you didn't see the picture of the snake, something is wrong with the software! -> Check your code!</li>
         <br><br>
         <li>If your robot arm isn't moving then there maybe something wrong with your connections! -> Check your battery is switched on and check all your wires are securely in their connections (give them a gentle tug).</li>
         <br><br>
