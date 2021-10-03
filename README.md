@@ -2,9 +2,9 @@
 
 [![logoPicture](images/girlsIntoCodingLogo.jpg)](https://www.girlsintocoding.com/)
 
-A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) using a online version of the free open source [Webots](https://www.cyberbotics.com/) robot simulator.
+A project activity with the subject robotic 2D kinematics, for [Girls Into Coding](https://www.girlsintocoding.com/).
 
-This activity is generated as a webpage at [https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity2/](https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity2/)
+This activity is generated as a webpage at [https://meisben.github.io/Robot-Kinematics-Remote-Worksheet-1/](https://meisben.github.io/Robot-Kinematics-Remote-Worksheet-1/) (eventually need to update to Sam's github pages!) 
 
 ## Contents
 
@@ -16,13 +16,13 @@ This activity is generated as a webpage at [https://meisben.github.io/girlsIntoC
 
 ## Overview
 
-This activity uses [robotbenchmark](https://robotbenchmark.net/), which is a online version of the [Webots](https://www.cyberbotics.com/) simulator. 
+This activity uses the robotic kinematics kit developed by [Sam Hoh](https://github.com/samhohcm) for Girls into Coding. This is an opensource kit(?) and you can find details on how to make it [here (HOLD)]("")
 
-![Activity2Picture](images/image1.png)
+![Activity2Picture](images/assembly1/img31.png)
 
 ## Accessing the activity webpage
 
-Simply point your browser to [https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity2/](https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity2/)
+Simply point your browser to [https://meisben.github.io/Robot-Kinematics-Remote-Worksheet-1/](https://meisben.github.io/Robot-Kinematics-Remote-Worksheet-1/) (eventually need to update to Sam's github pages!) 
 
 ## Contributing
 
@@ -32,7 +32,7 @@ Feel free very welcome to contribute if you find any errors in this activity, by
 
 ## Credit
 
-This activity uses bootstrap in the github pages website, thanks to [https://nicolas-van.github.io/bootstrap-4-github-pages/]()
+This activity uses bootstrap in the github pages website, thanks to [https://nicolas-van.github.io/bootstrap-4-github-pages/](https://nicolas-van.github.io/bootstrap-4-github-pages/)
 
 ## Help and updates
 
