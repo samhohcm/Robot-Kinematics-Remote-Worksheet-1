@@ -4,7 +4,7 @@
 
 A project activity with the subject robotic 2D kinematics, for [Girls Into Coding](https://www.girlsintocoding.com/).
 
-This activity is generated as a webpage at [https://meisben.github.io/Robot-Kinematics-Remote-Worksheet-1/](https://meisben.github.io/Robot-Kinematics-Remote-Worksheet-1/) (eventually need to update to Sam's github pages!) 
+This activity is generated as a webpage at [https://samhohcm.github.io/Robot-Kinematics-Remote-Worksheet-1/](https://samhohcm.github.io/Robot-Kinematics-Remote-Worksheet-1/)
 
 ## Contents
 
@@ -22,13 +22,13 @@ This activity uses the robotic kinematics kit developed by [Sam Hoh](https://git
 
 ## Accessing the activity webpage
 
-Simply point your browser to [https://meisben.github.io/Robot-Kinematics-Remote-Worksheet-1/](https://meisben.github.io/Robot-Kinematics-Remote-Worksheet-1/) (eventually need to update to Sam's github pages!) 
+Simply point your browser to [https://samhohcm.github.io/Robot-Kinematics-Remote-Worksheet-1/](https://samhohcm.github.io/Robot-Kinematics-Remote-Worksheet-1/)
 
 ## Contributing
 
 Coding, testing, and worksheet draft by [Sam Hoh](https://github.com/samhohcm) based on meisben's first Robot Simulator workshop.
 
-Feel free very welcome to contribute if you find any errors in this activity, by initiating a pull request.
+Feel free to contribute if you find any errors in this activity, by initiating a pull request.
 
 ## Credit
 
@@ -36,4 +36,4 @@ This activity uses bootstrap in the github pages website, thanks to [https://nic
 
 ## Help and updates
 
-If you have any difficulty with the activity please all initiate a pull request to contact for any help :)
+If you have any difficulty with the activity please initiate a pull request to contact for any help :)

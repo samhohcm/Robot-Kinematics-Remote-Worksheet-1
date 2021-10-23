@@ -342,7 +342,7 @@ First, we need to start to build our robot arm. Expand the headings below (click
     </div>
     <div id="collapseTwelve" class="collapse" data-parent="#accordion">
       <div class="card-body">
-        Take the jumper wires with the colors brown, red, orange, yellow. Take the small screwdriver and gently screw these into the motor connector. The don't need to be screwed hard, just gently so that if you give them a little tug they can't pull out. They should  be connected so that for the Jumper (J) and the Motor (M) wires that: Yellow (J) matches Black (M). Orange (J) matches Yellow (M). Red (J) matches White (M). And Brown (J) matches Red (M). Remember righty tighty, lefty loosy!
+        Take one set of the jumper wires. Take the small screwdriver and gently screw these into the motor connector. Make sure that the wires aren't crossed over! The don't need to be screwed hard, just gently so that if you give them a little tug they can't pull out. Remember righty tighty, lefty loosy!
 
         <img src="images/assembly1/img20_compressed.jpg" class="img-fluid" alt="assemblyImage">
 
@@ -376,9 +376,14 @@ First, we need to start to build our robot arm. Expand the headings below (click
     </div>
     <div id="collapseFourteen" class="collapse" data-parent="#accordion">
       <div class="card-body">
-        The wires connect into the Robotics board in the same order they came from the motor. Attach them gently with the big screwdriver attachment. Their order is Brown (J) -> Motor 1 Connector (Left). Red (J) -> Motor 1 Connector (Right). Orange (J) -> Motor 2 Connector (Left). Yellow (J) -> Motor 2 Connector (Right)
+        The wires connect into the Robotics board in the same order they came from the motor. Attach them gently with the big screwdriver attachment. 
+        
 
         <img src="images/assembly1/img23_compressed.jpg" class="img-fluid" alt="assemblyImage">
+        <br>
+
+        The motor connector ports should line up with the Robotics board ports as shown in the figure. Make sure there aren't any crossovers in the wires! That means the same colour wire in port 1 on the motor connector on the left should be the same colour wire on port a on the Robotics board on the right.
+        <img src="images/assembly1/img23a.jpg" class="img-fluid" alt="assemblyImage">
 
       </div>
     </div>
@@ -620,7 +625,7 @@ Whenever we're building a robot (or anything) it's really important to test it w
         <br><br>
         <li>If your robot arm isn't moving then there maybe something wrong with your connections! -> Check your battery is switched on and check all your wires are securely in their connections (give them a gentle tug).</li>
         <br><br>
-        <li>If you accidently press the microbit symbol the code will switch to control motor #2, we don't want this at the moment, so if you do see the number 2 being displayed then just press the microbit symbol on the microbit once to reselect motor #1!</li>
+        <li>If you accidentally press the microbit symbol the code will switch to control motor #2, we don't want this at the moment, so if you do see the number 2 being displayed then just press the microbit symbol on the microbit once to reselect motor #1!</li>
         </ul>
         <br> <br>
 
@@ -860,7 +865,7 @@ Let's build the second part of the robot arm!
     </div>
     <div id="collapseTenC" class="collapse" data-parent="#accordion">
       <div class="card-body">
-        Take the jumper wires with the colors green, blue, purple, grey. Take the small screwdriver and gently screw these into the motor connector. The don't need to be screwed hard, just gently so that if you give them a little tug they can't pull out. They should  be connected so that for the Jumper (J) and the Motor (M) wires that: Green (J) matches Black (M). Blue (J) matches Yellow (M). Purple (J) matches White (M). And Gray (J) matches Red (M). Remember righty tighty, lefty loosy!
+        Take another set of jumper wires. Take the small screwdriver and gently screw these into the motor connector. They don't need to be screwed hard, just gently so that if you give them a little tug they can't pull out. Remember righty tighty, lefty loosy!
 
         <br><br>
         <img src="images/assembly2/IMG_20210330_000801_compressed.jpg" class="img-fluid" alt="assemblyImage">
@@ -877,7 +882,7 @@ Let's build the second part of the robot arm!
     </div>
     <div id="collapseElevenC" class="collapse" data-parent="#accordion">
       <div class="card-body">
-        The wires connect into the Robotics board in the same order they came from the motor. Attach them gently with the big screwdriver attachment. Their order is Gray (J) -> Motor 3 Connector (Left). Purple (J) -> Motor 3 Connector (Right). Blue (J) -> Motor 4 Connector (Left). Green (J) -> Motor 4 Connector (Right)
+        The wires connect into the Robotics board in the same order they came from the motor, as before with the first motor. Attach them gently with the big screwdriver attachment. make sure there are no crossovers!
 
         <br><br>
         <img src="images/assembly3/IMG_20210411_124810_compressed.jpg" class="img-fluid" alt="assemblyImage">
